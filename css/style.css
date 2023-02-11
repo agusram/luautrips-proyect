@@ -115,7 +115,6 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .img-tripsSection-column2{
@@ -162,12 +161,22 @@ header{
     padding-right: 6px;
     padding-bottom: 6px;
     border-radius: 20px;
+    transition: all 300ms ease;
+}
+
+.img-surftrip-04:hover{
+    transform: scale(1.03);
 }
 
 .img-surftrip-06{
     padding-right: 6px;
     padding-top: 6px;
     border-radius: 20px;
+    transition: all 300ms ease;
+}
+
+.img-surftrip-06:hover{
+    transform: scale(1.03);
 }
 
 .img-surftrip-03{
@@ -175,6 +184,11 @@ header{
     padding-right: 6px;
     padding-bottom: 6px;
     border-radius: 20px;
+    transition: all 300ms ease;
+}
+
+.img-surftrip-03:hover{
+    transform: scale(1.03);
 }
 
 .img-snowtrip-03{
@@ -182,19 +196,32 @@ header{
     padding-right: 6px;
     padding-top: 6px;
     border-radius: 20px;
+    transition: all 300ms ease;
+}
+
+.img-snowtrip-03:hover{
+    transform: scale(1.03);
 }
 
 .img-snowtrip-06{
     padding-bottom: 6px;
     border-radius: 20px;
+    transition: all 300ms ease;
+}
+
+.img-snowtrip-06:hover{
+    transform: scale(1.03);
 }
 
 .img-snowtrip-04{
     padding-top: 6px;
     border-radius: 20px;
+    transition: all 300ms ease;
 }
 
-
+.img-snowtrip-04:hover{
+    transform: scale(1.03);
+}
 
 
 
@@ -757,8 +784,15 @@ footer{
     color: #0b2027;
     background-color: #20FC8F;
     font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s;
 }
 
+.contact-button:hover{
+    background-color: #0b2027;
+    color: #20FC8F;
+    transition: all 0.2s;
+}
 /*#5c80bc 4d5061*/
 
 
