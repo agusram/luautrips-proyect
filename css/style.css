@@ -1,0 +1,848 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* INDEX */
+
+/*HEADER*/
+
+header{
+    background-color: #0b2027;
+    height: 780px;
+    /* clip-path: polygon(0 0, 100% 0%, 100% 75%, 50% 100%, 0 75%); */
+}
+
+.header-navbar{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:#0b2027;
+}
+
+.header-navbar ul li{
+    display: inline;
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    color:#20FC8F;
+}
+
+.header-logo{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.header-logo-bg{
+    opacity: 0.6;
+    width: 100%;
+}
+
+.logo{
+    position: absolute;
+    padding-top: 505px;
+}
+
+
+
+/*WELCOME SECTION*/
+
+#welcSection{
+    /* background-image: url("../img/welcomeSection/img-welc.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    background-color: #0b2027;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 60px;
+}
+
+.welcSection__2{
+    padding-left: 70px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcSection__title{
+    font-family: 'Oswald', sans-serif;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: #CDD1C4;
+    font-size: 50px;
+}
+
+.welcSection__line{
+    height: 3px;
+    background-color: #CDD1C4;
+}
+
+.welcSection__description{
+    font-family: 'Oswald', sans-serif;
+    color: #CDD1C4;
+    font-size: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+
+
+/*TRIPS SECTION*/
+
+.img-tripsSection{
+    background-color: #0b2027;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.img-tripsSection-column1{
+    /* background-image: url(../img/tripsSection/img-surf-04.jpg);
+    background-repeat: no-repeat; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.img-tripsSection-column2{
+    display: flex;
+    flex-direction: column;
+}
+
+.img-tripsSection-column3{
+    /* background-image: url(../img/tripsSection/img-snow-04.jpg); */
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 5px;
+    background-position: bottom;
+}
+
+.trips-button{
+    background-color:#20FC8F;
+    width: 120px;
+    height: 60px;
+    position: absolute;
+    font-family: 'Oswald', sans-serif;
+    color: #0b2027;
+    font-size: 35px;
+    /* border: 4px solid #20FC8F; */
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s;
+    margin-top: -100px;
+    margin-left: -60px;
+}
+
+.trips-button:hover{
+    background-color: #0b2027;
+    color: #20FC8F;
+    transition: all 0.2s;
+}
+
+.img-surftrip-04{
+    padding-right: 6px;
+    padding-bottom: 6px;
+    border-radius: 20px;
+}
+
+.img-surftrip-06{
+    padding-right: 6px;
+    padding-top: 6px;
+    border-radius: 20px;
+}
+
+.img-surftrip-03{
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 6px;
+    border-radius: 20px;
+}
+
+.img-snowtrip-03{
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 6px;
+    border-radius: 20px;
+}
+
+.img-snowtrip-06{
+    padding-bottom: 6px;
+    border-radius: 20px;
+}
+
+.img-snowtrip-04{
+    padding-top: 6px;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+/*DESC SECTION*/
+
+#descSection{
+    background-color: #0b2027;
+    background-size: cover;
+    padding-bottom: 15px;
+    color: #CDD1C4;
+}
+
+.descSection__title{
+    font-family: 'Oswald', sans-serif;
+    padding-top: 40px;
+    font-size: 70px;
+    color:#CDD1C4;
+    text-align: center;
+}
+
+.descSection__desc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.descSection__levels{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.levels-title{
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 20px;
+}
+
+.levels-desc{
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+}
+
+.descSection__eco{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.eco-title{
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 20px;
+}
+
+.eco-desc{
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+}
+
+.descSection__gourmet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.gourmet-title{
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 20px;
+}
+
+.gourmet-desc{
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+}
+
+
+
+/*FINAL SECTION*/
+
+#finalSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #0b2027;
+}
+
+.finalSection__snow{
+    padding-right: 5px;
+    border-radius: 20px;
+}
+
+.finalSection__surf{
+    padding-left: 5px;
+    border-radius: 20px;
+}
+
+
+/*FOOTER*/
+
+footer{
+    background-color: #0b2027;
+    background-size: 100%;
+    height: 200px;
+}
+
+.footer-logo{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 15px;
+}
+
+.footer-icons{
+    text-align: center;
+}
+
+.f-icon{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* PROXIMOS TRIPS */
+
+.header-nextTrips{
+    height: 0%;
+}
+
+#mainNextTrips{
+    background-color: #0b2027;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+/* card 1 */
+
+.mainNextTrips__card-1{
+    background-image: url(../img/nextTrips/img-nextTrips01.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 700px;
+    border-radius: 20px;
+    height: 700px;
+    width: 388px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+
+/* card 2 */
+
+.mainNextTrips__card-2{
+    background-image: url(../img/nextTrips/img-nextTrips02.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 700px;
+    border-radius: 20px;
+    height: 700px;
+    width: 388px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+/* card 3 */
+
+.mainNextTrips__card-3{
+    background-image: url(../img/nextTrips/img-nextTrips03.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 700px;
+    border-radius: 20px;
+    height: 700px;
+    width: 388px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.mainNextTrips__card-3-location{
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.mainNextTrips__card-3-date{
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.mainNextTrips__card-3-price{
+    color: black;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    padding-top: 150px;
+    padding-bottom: 15px;
+}
+
+
+/* en común */
+
+.mainNextTrips__card-location{
+    color: #CDD1C4;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card-location-icon{
+    padding-right: 5px;
+}
+
+.card-location-text{
+    padding-left: 5px;
+}
+
+.mainNextTrips__card-date{
+    color: #CDD1C4;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.card-date-icon{
+    padding-right: 5px;
+}
+
+.card-date-text{
+    padding-left: 5px;
+}
+
+.mainNextTrips__card-price{
+    color: #CDD1C4;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    padding-top: 70px;
+    padding-bottom: 15px;
+}
+
+.mainNextTrips__card-button{
+    background-color: #20FC8F;
+    width: 150px;
+    height: 60px;
+    font-family: 'Oswald', sans-serif;
+    color: #241f21;
+    font-size: 30px;
+    font-weight: bold;
+    /* border: 3px solid #241f21; */
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.mainNextTrips__card-button:hover{
+    background-color: #0b2027;
+    color: #20FC8F;
+    transition: all 0.2s;
+}
+
+
+
+
+
+
+
+
+
+/* SURF / SNOW */
+
+.header-surf{
+    background-image: url(../img/surf/img-header-surf.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
+.header-snow{
+    background-image: url(../img/snow/img-header-snow.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.main-accom{
+    background-color: #0b2027;
+}
+
+/* Seccion 1 */
+
+.accomSection1__1{
+    color: #CDD1C4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.accomSection1__1-img{
+    width: 1000px;
+    border-radius: 15px;
+}
+
+.accomSection1__1-location{
+    color:#CDD1C4;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.location-icon{
+    padding-right: 5px;
+}
+
+.location-text{
+    padding-left: 5px;
+}
+
+.accomSection1__1-text{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.accomSection1__2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+
+.accomSection1__2-img1{
+    padding-right: 5px;
+    border-radius: 15px;
+}
+
+.accomSection1__2-img2{
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 15px;
+}
+
+.accomSection1__2-img3{
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 15px;
+}
+
+/* Sección 2 */
+
+.accomSection2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.accomSection2__1-text{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-top: 10px;
+    color:#20FC8F;
+}
+
+.accomSection2__2-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    color:#20FC8F;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.accomIcon{
+    padding-bottom: 30px;
+    padding: 30px;
+    text-align: center;
+}
+
+/* Sección 3 */
+
+.accomSection3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+    color: #20FC8F;
+    text-align: center;
+}
+
+.accomSection3 ul li{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.accomSection3 ul li::before{
+    content: ">>";
+    margin-right: 5px;
+}
+
+.line{
+    height: 2px;
+    background-color: #20FC8F;
+    margin-top: 50px;
+}
+
+
+
+
+/* CONTACTO */
+
+.header-contact{
+    background-image: url(../img/contact/img-contact.jpeg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+    /*PARALLAX
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+
+.header-title{
+    font-family: 'Oswald', sans-serif;
+    font-size: 70px;
+    color: #CDD1C4;
+    opacity: 0.7;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.form{
+    padding-top: 50px;
+    text-align: center;
+    background-color: #CDD1C4;
+    padding-bottom: 50px;
+}
+
+.full-name{
+    background-color: none;
+    width: 300px;
+    height: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #0b2027;
+    font-size: 15px;
+    border: 3px solid #0b2027;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+.email{
+    background-color: none;
+    width: 400px;
+    height: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #0b2027;
+    font-size: 15px;
+    border: 3px solid #0b2027;
+    border-radius: 5px;
+}
+
+.comments{
+    background-color: none;
+    width: 715px;
+    height: 250px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #0b2027;
+    font-size: 15px;
+    border: 3px solid #0b2027;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.contact-button{
+    width: 720px;
+    height: 35px;
+    border: 3px solid #0b2027;
+    border-radius:5px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    color: #0b2027;
+    background-color: #20FC8F;
+    font-weight: bold;
+}
+
+/*#5c80bc 4d5061*/
+
+
+
+
+
+
+
+
+
+
+/* RESERVA */
+
+.header-booking{
+    background-image: url(../img/booking/img-booking.jpg);
+    background-size: cover;
+    height: 300px;
+    background-position: bottom;
+}
+
+.header-bookingIsotype{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.header-titleBooking{
+    font-family: 'Oswald', sans-serif;
+    font-size: 70px;
+    color: #CDD1C4;
+    opacity: 0.7;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.auto{
+    background-color: none;
+    width: 500px;
+    height: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #0b2027;
+    font-size: 15px;
+    border: 3px solid #0b2027;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+.contact{
+    background-color: none;
+    width: 200px;
+    height: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #0b2027;
+    font-size: 15px;
+    border: 3px solid #0b2027;
+    border-radius: 5px;
+}
+
+.booking-line{
+    height: 3px;
+    background-color: #0b2027;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.pax{
+    background-color: none;
+    width: 70px;
+    height: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #0b2027;
+    font-size: 15px;
+    border: 3px solid #0b2027;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+.pay{
+    background-color: none;
+    width: 640px;
+    height: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #0b2027;
+    font-size: 15px;
+    border: 3px solid #0b2027;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+.booking-text{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: #0b2027;
+    font-size: 19px;
+}
