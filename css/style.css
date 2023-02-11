@@ -570,9 +570,15 @@ footer{
     padding-left: 5px;
 }
 
-.accomSection1__1-text{
+.accomSection1__1-text-1{
     font-family: 'Oswald', sans-serif;
     font-size: 25px;
+    text-align: center;
+}
+
+.accomSection1__1-text-2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
     text-align: center;
 }
 
@@ -609,16 +615,16 @@ footer{
     align-items: center;
 }
 
-.accomSection2__1-text{
+.accomSection2__1-title{
     font-family: 'Oswald', sans-serif;
     font-size: 25px;
     font-weight: bold;
     padding-left: 15px;
-    padding-top: 10px;
+    padding-top: 50px;
     color:#20FC8F;
 }
 
-.accomSection2__2-block{
+.accomSection2__2-icons{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -634,6 +640,14 @@ footer{
     text-align: center;
 }
 
+.accomSection2__3-text{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color:#20FC8F;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
 /* Sección 3 */
 
 .accomSection3{
@@ -643,7 +657,7 @@ footer{
     flex-direction: column;
     align-items: center;
     padding-bottom: 50px;
-    color: #20FC8F;
+    color: #CDD1C4;
     text-align: center;
 }
 
