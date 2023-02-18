@@ -8,91 +8,163 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Poppins&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
         <link rel="stylesheet" href="../css/style.css">
         <title>Luau Trips</title>
     </head>
     <body>
         <header class="header-snow">
-            <nav class="header-navbar">
-                <ul>
-                    <li><a href="../index.html">HOME</a></li>
-                    <li><a href="../pag/proximosTrips.html">PROXIMOS TRIPS</a></li>
-                    <li></li>
-                </ul>
-                <a href="../index.html">
-                    <img src="../img/logo/logo-13.png" height="45px" class="header-imgIsotype" alt="">
-                </a>
-                <ul>
-                    <li><a href="../pag/surf.html">SURF</a></li>
-                    <li><a href="../pag/snow.html">SNOW</a></li>
-                    <li><a href="../pag/contacto.html">CONTACTO</a></li>
-                </ul>
+            <nav class="navbar navbar-expand-lg p-0">
+                <div class="container-fluid">
+                    <a class="navbar-corner-logo d-xl-none d-lg-none d-xl-block" href="../index.html">
+                        <img src="../img/logo/logo-13.png" height="45px" class="navbar-logo" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a href="../index.html" style="text-decoration:none">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../pag/proximosTrips.html" style="text-decoration:none">PROXIMOS TRIPS</a>
+                            </li>
+                            <li class="d-sm-block d-sm-none d-md-block d-md-none d-lg-block"></li>
+                        </ul>
+                        <a class="d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block" href="../index.html">
+                            <img src="../img/logo/logo-13.png" height="45px" class="navbar-logo" alt="">
+                        </a>
+                        <ul class="navbar-nav me-auto">    
+                            <li class="nav-item">
+                                <a href="../pag/surf.html" style="text-decoration:none">SURF</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../pag/snow.html" style="text-decoration:none">SNOW</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../pag/contacto.html" style="text-decoration:none">CONTACTO</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
             <div class="header-title animate__animated animate__flipInX">
                 <h1>SNOW TRIPS</h1>
             </div>
         </header>
         <main class="main-accom">
-            <section class="accomSection1">       
-                <div class="accomSection1__1">
-                    <img src="../img/snow/img-snowhouse-01.jpg" class="accomSection1__1-img" alt="">
-                    <div class="accomSection1__1-location">
-                        <img src="../img/icons/location-white.svg" class="location-icon" height="30px" alt="">
-                        <h5 class="location-text">BARILOCHE - ARGENTINA</h5>
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-12 accomSection1">
+                        <div class="accomSection1__1">
+                            <img src="../img/snow/img-snowhouse-01.jpg" class="accomSection1__1-img" alt="">
+                            <div class="accomSection1__1-location">
+                                <img src="../img/icons/location-white.svg" class="location-icon" height="30px" alt="">
+                                <h5 class="location-text">BARILOCHE - ARGENTINA</h5>
+                            </div>
+                            <p class="accomSection1__1-text-1">DENTRO DE LA VILLA CATEDRAL</p>
+                            <p class="accomSection1__1-text-2">Habitaciones compartidas y privadas - Jacuzzi - Sauna - Wifi - Cocina - Parrilla - Sala de cine</p>
+                        </div>
+                        <!-- CARRUSEL -->
+                        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                            <div class="carousel-inner accomSection1__2">
+                                <div class="carousel-item active">
+                                    <div class="accomSection1__2-line1">
+                                        <div class="item">
+                                            <img src="../img/snow/img-snowhouse-03.jpg" class="d-block w-100 item1" alt="">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../img/snow/img-snowhouse-04.jpg" class="d-block w-100 item2" alt="">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../img/snow/img-snowhouse-02.jpg" class="d-block w-100 item3" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="accomSection1__2-line2">
+                                        <div class="item">
+                                            <img src="../img/surf/img-surfhouse-04.jpg" class="d-block w-100 item1" alt="">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../img/surf/img-surfhouse-05.jpg" class="d-block w-100 item2" alt="">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../img/surf/img-surfhouse-09.jpg" class="d-block w-100 item3" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="accomSection1__2-line3">
+                                        <div class="item">
+                                            <img src="../img/surf/img-surfhouse-08.jpg" class="d-block w-100 item1" alt="">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../img/surf/img-surfhouse-03.jpg" class="d-block w-100 item2" alt="">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../img/surf/img-surfhouse-10.jpg" class="d-block w-100 item3" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
                     </div>
-                    <p class="accomSection1__1-text-1">DENTRO DE LA VILLA CATEDRAL</p>
-                    <p class="accomSection1__1-text-2">Habitaciones compartidas y privadas - Jacuzzi - Sauna - Wifi - Cocina - Parrilla - Sala de cine</p>
+                    <div class="col-12 accomSection2">
+                        <hr width="1000px" class="line">
+                        <h3 class="accomSection2__1-title">EL TRIP INCLUYE:</h3>
+                        <div class="accomSection2__2-icons">
+                            <div class="accomIcon">
+                                <img src="../img/icons/person-snowboarding.svg" height="50px" class="icon-icon" alt="">
+                                <h6 class="text-icon">SNOWBOARD</h6>
+                            </div>
+                            <div class="accomIcon">
+                                <img src="../img/icons/utensils.svg" height="50px" class="icon-icon" alt="">
+                                <h6 class="text-icon">DESAYUNO<br>ALMUERZO<br>CENA</h6>
+                            </div>
+                            <div class="accomIcon">
+                                <img src="../img/icons/camera.svg" height="45px" class="icon-icon" alt="">
+                                <h6 class="text-icon">COBERTURA <br> FOTOGRÁFICA</h6>
+                            </div>
+                            <div class="accomIcon">
+                                <img src="../img/icons/ticket.svg" height="45px" class="icon-icon" alt="">
+                                <h6 class="text-icon">SKI PASS</h6>
+                            </div>
+                            <div class="accomIcon">
+                                <img src="../img/icons/house.svg" height="45px" class="icon-icon" alt="">
+                                <h6 class="text-icon">ALOJAMIENTO</h6>
+                            </div>   
+                            <div class="accomIcon">
+                                <img src="../img/icons/events.svg" height="50px" class="icon-icon" alt="">
+                                <h6 class="text-icon">EVENTOS</h6>
+                            </div>
+                            <div class="accomIcon">
+                                <img src="../img/icons/van-shuttle.svg" height="45px" class="icon-icon" alt="">
+                                <h6 class="text-icon">TRASLADOS</h6>
+                            </div>
+                        </div>
+                        <div class="accomSection2__3-text">
+                            <p>The South House tiene capacidad para albergar 8 personas (cuatro habitaciones en total, cuatro dobles).<br> Todas las habitaciones disponen de camas amplias estándar y baño privado. Podrás disfrutar de un <br>poco de sauna y jazuzzi para relajarte después de un dia de snowboard. Nuestro snowhouse está situado <br>dentro de la Villa Catedral, por lo que estaremos a unos minutos del Cerro. El surf trip incluye además <br>pensión completa con diferentes opciones de menú. Snack a primera hora de la mañana. Desayuno, <br>almuerzo, cena. Café, té y agua todo el día. Traslados desde y hacia el aeropuerto. Pases de ski y equipos <br>para toda la semana. También disfrutaremos de los After Ski, tragos y música en vivo.</p>
+                        </div>           
+                    </div>
+                    <div class="col-12 accomSection3">
+                        <ul>NO INCLUYE:
+                            <li>Aéreos/Bus al destino.</li>
+                            <li>El costo extra por traer tu propio equipo.</li>
+                        </ul>
+                        <hr width="1000px" class="line">
+                    </div>
                 </div>
-                <div class="accomSection1__2">
-                    <img src="../img/snow/img-snowhouse-03.jpg" class="accomSection1__2-img1" width="330px" alt="">
-                    <img src="../img/snow/img-snowhouse-04.jpg" class="accomSection1__2-img2" width="330px" alt="">
-                    <img src="../img/snow/img-snowhouse-05.jpg" class="accomSection1__2-img3" width="330px" alt="">
-                </div>
-            </section>
-            <section class="accomSection2">
-                <hr width="1000px" class="line">
-                <h3 class="accomSection2__1-title">EL TRIP INCLUYE:</h3>
-                <div class="accomSection2__2-icons">
-                    <div class="accomIcon">
-                        <img src="../img/icons/person-snowboarding.svg" height="50px" class="surf-icon" alt="">
-                        <h6 class="surf-text">SNOWBOARD</h6>
-                    </div>
-                    <div class="accomIcon">
-                        <img src="../img/icons/utensils.svg" height="50px" class="food-icon" alt="">
-                        <h6 class="food-text">DESAYUNO<br>ALMUERZO<br>CENA</h6>
-                    </div>
-                    <div class="accomIcon">
-                        <img src="../img/icons/camera.svg" height="45px" class="camera-icon" alt="">
-                        <h6 class="camera-text">COBERTURA <br> FOTOGRÁFICA</h6>
-                    </div>
-                    <div class="accomIcon">
-                        <img src="../img/icons/ticket.svg" height="45px" class="ticket-icon" alt="">
-                        <h6 class="ticket-text">SKI PASS</h6>
-                    </div>
-                    <div class="accomIcon">
-                        <img src="../img/icons/house.svg" height="45px" class="house-icon" alt="">
-                        <h6 class="house-text">ALOJAMIENTO</h6>
-                    </div>   
-                    <div class="accomIcon">
-                        <img src="../img/icons/events.svg" height="50px" class="event-icon" alt="">
-                        <h6 class="event-text">EVENTOS</h6>
-                    </div>
-                    <div class="accomIcon">
-                        <img src="../img/icons/van-shuttle.svg" height="50px" class="yoga-icon" alt="">
-                        <h6 class="yoga-text">TRASLADOS</h6>
-                    </div>
-                </div>
-                <div class="accomSection2__3-text">
-                    <p>The South House tiene capacidad para albergar 8 personas (cuatro habitaciones en total, cuatro dobles).<br> Todas las habitaciones disponen de camas amplias estándar y baño privado. Podrás disfrutar de un <br>poco de sauna y jazuzzi para relajarte después de un dia de snowboard. Nuestro snowhouse está situado <br>dentro de la Villa Catedral, por lo que estaremos a unos minutos del Cerro. El surf trip incluye además <br>pensión completa con diferentes opciones de menú. Snack a primera hora de la mañana. Desayuno, <br>almuerzo, cena. Café, té y agua todo el día. Traslados desde y hacia el aeropuerto. Pases de ski y equipos <br>para toda la semana. También disfrutaremos de los After Ski, tragos y música en vivo.</p>
-                </div>           
-            </section>
-            <section class="accomSection3">
-                <ul>NO INCLUYE:
-                    <li>Aéreos/Bus al destino.</li>
-                    <li>El costo extra por traer tu propio equipo.</li>
-                </ul>
-                <hr width="1000px" class="line">
-            </section>
+            </div>
         </main>
         <footer>
             <div class="footer-logo">
@@ -104,5 +176,7 @@
                 <img src="../img/icons/instagram.svg" height="25px" class="f-icon" alt="">
             </div>
         </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     </body>
 </html>
+    
