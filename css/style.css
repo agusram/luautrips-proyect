@@ -54,14 +54,9 @@
 }
 
 
-
 /* WELCOME SECTION */
 
 #welcSection{
-    /* background-image: url("../img/welcomeSection/img-welc.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover; */
     background-color: #0b2027;
     background-size: cover;
     display: flex;
@@ -110,6 +105,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .img-tripsSection-column1{
@@ -636,7 +632,7 @@ footer{
  
 }
 
-.carousel-inner{
+.accomSection1__2{
     padding: 1em;
 }
 
@@ -715,7 +711,6 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 50px;
     color: #CDD1C4;
     text-align: center;
 }
@@ -968,9 +963,297 @@ footer{
     }
 
 
+    /* INDEX */
+    
+    .logo{
+        width: 100px;
+        position: absolute;
+        padding-top: 125px;
+    }
+
+    /* Welcome Section */
+
+    #welcSection{
+        padding-bottom: 25px;
+        padding-top: 25px;
+    }
+
+    .welcSection__1 img{
+        height: 170px;
+        position: absolute;
+        opacity: 0.1;
+    }
+
+    .welcSection__2{
+        padding-left: 20px;
+        padding-right: 30px;
+    }
+
+    .welcSection__title{
+        padding-top: 0px;
+        padding-bottom: 0px;
+        font-size: 22px;
+    }
+
+    .welcSection__line{
+        width: 250px;
+        height: 2px;
+        margin: 0;
+    }
+
+    .welcSection__description{
+        font-size: 14px;
+        padding-top: 10px;
+        text-align: center;
+    }
+
+
+    /* Trips Section */
+
+    .img-tripsSection{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .img-tripsSection-column1{
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+
+    .img-tripsSection-column2{
+        display: none;
+    }
+
+    .img-tripsSection-column3{
+        margin-left: 2px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+
+    .trips-button{
+        width: 50px;
+        height: 25px;
+        font-size: 14px;
+        border-radius: 5px;
+        margin-top: -35px;
+        margin-left: -25px;
+    }
+
+    .trips-button:active{
+        background-color: #0b2027;
+        color: #20FC8F;
+        transition: all 0.2s;
+    }
+
+    .img-surftrip-04{
+        padding-right: 2px;
+        padding-bottom: 2px;
+        border-radius: 8px;
+        width: 150px;
+    }
+
+    .img-surftrip-04:active{
+        transform: scale(1.03);
+    }
+
+    .img-surftrip-06{
+        padding-right: 2px;
+        padding-top: 2px;
+        border-radius: 8px;
+        width: 150px;
+    }
+
+    .img-surftrip-06:active{
+        transform: scale(1.03);
+    }
+
+    .img-surftrip-03{
+        width: 0px;
+    }
+
+    .img-snowtrip-03{
+        width: 0px;
+    }
+
+    .img-snowtrip-06{
+        padding-bottom: 2px;
+        border-radius: 8px;
+        width: 150px;
+    }
+
+    .img-snowtrip-06:active{
+        transform: scale(1.03);
+    }
+
+    .img-snowtrip-04{
+        padding-top: 2px;
+        border-radius: 8px;
+        width: 150px;
+    }
+
+    .img-snowtrip-04:active{
+        transform: scale(1.03);
+    }
+
+
+    /* Desc Section */
+
+    #descSection{
+        padding-bottom: 0px;
+    }
+
+    .descSection__title{
+        padding-top: 20px;
+        font-size: 35px;
+    }
+
+    .descSection__desc{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .descSection__eco{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .eco-title{
+        font-size: 18px;
+        padding-top: 10px;
+    }
+
+    .eco-desc{
+        font-size: 15px;
+    }
+
+    .descSection__levels{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .levels-title{
+        font-size: 18px;
+        padding-top: 18px;
+    }
+
+    .levels-desc{
+        font-size: 15px;
+    }
+
+    .descSection__gourmet{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .gourmet-title{
+        font-size: 18px;
+        padding-top: 18px;
+    }
+
+    .gourmet-desc{
+        font-size: 15px;
+    }
+
+    .desc-icon{
+        height: 100px;
+    }
+
+
+    /* Final Section */
+
+    .finalSection__snow{
+        padding-top: 0px;
+        padding-bottom: 5px;
+        padding-right: 0px;
+        border-radius: 12px;
+        width: 350px;
+    }
+
+    .finalSection__surf{
+        padding-top: 5px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        border-radius: 12px;
+        width: 350px;
+    }
+
+
 
 
     /* PRÓXIMOS TRIPS */
+
+    #mainNextTrips{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    /* Card 1 */
+    
+    .mainNextTrips__card-1{
+        background-size: auto 600px;
+        height: 600px;
+        width: 330px;
+        border-radius: 15px;
+    }
+    
+    
+    /* Card 2 */
+    
+    .mainNextTrips__card-2{
+        background-size: auto 600px;
+        height: 600px;
+        width: 330px;
+        border-radius: 15px;
+    }
+    
+    
+    /* Card 3 */
+    
+    .mainNextTrips__card-3{
+        background-size: auto 600px;
+        height: 600px;
+        width: 330px;
+        border-radius: 15px;
+    }
+    
+    .mainNextTrips__card-3-location{
+        font-size: 22px;
+    }
+    
+    .mainNextTrips__card-3-date{
+        font-size: 22px;
+    }
+    
+    .mainNextTrips__card-3-price{
+        font-size: 22px;
+        padding-top: 100px;
+        padding-bottom: 15px;
+    }
+    
+    
+    /* En común */
+    
+    .mainNextTrips__card-location{
+        font-size: 22px;
+    }
+    
+    .mainNextTrips__card-date{
+        font-size: 22px;
+    }
+    
+    .mainNextTrips__card-price{
+        font-size: 22px;
+        padding-top: 45px;
+        padding-bottom: 10px;
+    }
+    
+    .mainNextTrips__card-button{
+        width: 130px;
+        height: 50px;
+        font-size: 25px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+    }
 
     .mainNextTrips__card-button:active{
         background-color: #0b2027;
@@ -1086,7 +1369,7 @@ footer{
 
     .accomSection3{
     font-size: 18px;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
     }
 
     .accomSection3 ul li{
