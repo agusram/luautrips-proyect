@@ -71,11 +71,10 @@
 
 .welcSection__1 img{
     opacity: 0.2;
+    position: absolute;
 }
 
 .welcSection__2{
-    padding-left: 5%;
-    padding-right: 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -87,6 +86,7 @@
     padding-bottom: 10px;
     color: #CDD1C4;
     font-size: 50px;
+    text-align: center;
 }
 
 .welcSection__line{
@@ -100,7 +100,7 @@
     font-size: 20px;
     padding-top: 20px;
     text-align: center;
-    width: 100%;
+    width: 55%;
 }
 
 .index-line{
@@ -572,7 +572,7 @@ footer{
     height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center top;
 }
 
 /* header-title se encuentra en la página de contacto */
@@ -787,7 +787,7 @@ footer{
 
 .full-name{
     background-color: none;
-    width: 300px;
+    width: 346px;
     height: 35px;
     font-family: 'Source Sans Pro', sans-serif;
     color: #0b2027;
@@ -799,7 +799,7 @@ footer{
 
 .email{
     background-color: none;
-    width: 400px;
+    width: 345px;
     height: 35px;
     font-family: 'Source Sans Pro', sans-serif;
     color: #0b2027;
@@ -811,7 +811,7 @@ footer{
 
 .comments{
     background-color: none;
-    width: 710px;
+    width: 700px;
     height: 250px;
     font-family: 'Source Sans Pro', sans-serif;
     color: #0b2027;
@@ -822,7 +822,7 @@ footer{
 }
 
 .contact-button{
-    width: 710px;
+    width: 705px;
     height: 35px;
     border: 3px solid #0b2027;
     border-radius:5px;
@@ -880,7 +880,7 @@ footer{
 
 .auto{
     background-color: white;
-    width: 455px;
+    width: 446px;
     height: 35px;
     font-family: 'Source Sans Pro', sans-serif;
     color: #0b2027;
@@ -926,7 +926,7 @@ footer{
 
 .pay{
     background-color: white;
-    width: 635px;
+    width: 625px;
     height: 35px;
     font-family: 'Source Sans Pro', sans-serif;
     color: #0b2027;
@@ -989,12 +989,12 @@ footer{
     /* Welcome Section */
 
     #welcSection{
-        padding-bottom: 7%;
-        padding-top: 8%;
+        padding-bottom: 5%;
+        padding-top: 10%;
     }
 
     .welcSection__1 img{
-        height: 170px;
+        height: 140px;
         position: absolute;
         opacity: 0.1;
     }
@@ -1021,6 +1021,7 @@ footer{
         padding-top: 10px;
         margin-bottom: 0px;
         text-align: center;
+        width: 100%;
     }
 
 
@@ -1065,7 +1066,7 @@ footer{
         padding-right: 2px;
         padding-bottom: 2px;
         border-radius: 8px;
-        width: 150px;
+        width: 165px;
     }
 
     .img-surftrip-04:active{
@@ -1076,7 +1077,7 @@ footer{
         padding-right: 2px;
         padding-top: 2px;
         border-radius: 8px;
-        width: 150px;
+        width: 165px;
     }
 
     .img-surftrip-06:active{
@@ -1094,7 +1095,7 @@ footer{
     .img-snowtrip-06{
         padding-bottom: 2px;
         border-radius: 8px;
-        width: 150px;
+        width: 165px;
     }
 
     .img-snowtrip-06:active{
@@ -1104,7 +1105,7 @@ footer{
     .img-snowtrip-04{
         padding-top: 2px;
         border-radius: 8px;
-        width: 150px;
+        width: 165px;
     }
 
     .img-snowtrip-04:active{
@@ -1202,7 +1203,7 @@ footer{
         padding-top: 20px;
         padding-bottom: 20px;
     }
-    
+
     /* Card 1 */
     
     .mainNextTrips__card-1{
@@ -1283,14 +1284,16 @@ footer{
     /* SURF / SNOW */
 
     .header-surf{
-        height: 180px;
-        background-size: contain;
+        background-image: url(../img/surf/img-header-surf-mobile.jpg);
+        height: 230px;
+        background-size: 100%;
         background-position: center bottom;
     }
 
     .header-snow{
-        height: 180px;
-        background-size: contain;
+        background-image: url(../img/snow/img-header-snow-mobile.jpg);
+        height: 230px;
+        background-size: 100%;
         background-position: center bottom;
     }
     
@@ -1323,6 +1326,7 @@ footer{
     .accomSection1__1-text-2{
         font-size: 15px;
         padding: 0px 10px;
+        width: 90%;
     }
 
     .carousel{
@@ -1400,34 +1404,37 @@ footer{
     /* CONTACTO */
 
     .header-contact{
-        height: 180px;
-        background-size: contain;
+        background-image: url(../img/contact/img-header-contact-mobile.jpg);
+        height: 230px;
+        background-size: 100%;
         background-position: center bottom;
     }
 
     .form{
-        padding-top: 30px;
-        padding-bottom: 30px;
+        padding-top: 55px;
+        padding-bottom: 55px;
     }
 
     .full-name{
-        width: 100%;
+        width: 95%;
         margin: 0px 0px 10px 0px;
+        height: 31px;
     }
 
     .email{
-        width: 100%;
+        width: 95%;
         margin: 0px 0px 10px 0px;
+        height: 31px;
     }
 
     .comments{
-        width: 100%;
+        width: 95%;
         height: 200px;
         margin-bottom: 7px;
     }
 
     .contact-button{
-        width: 100%;
+        width: 95%;
     }
 
     .contact-button:active{
@@ -1463,30 +1470,31 @@ footer{
     }
 
     .auto{
-        width: 100%;
+        width: 96%;
         margin: 0px 0px 10px 0px;
     }
 
     .contact{
-        width: 100%;
+        width: 95%;
     }
 
     .booking-line{
         height: 2px;
-        width: 100%;
+        width: 95%;
     }
 
     .pax{
-        width: 19%;
+        width: 17%;
         margin: 0px 0px 10px 0px;
     }
 
     .pay{
-        width: 79%;
+        width: 78%;
         margin-bottom: 10px;
     }
 
     .booking-text{
         font-size: 16px;
+        margin: 0px 2% 0px 2%;
     }
 }
