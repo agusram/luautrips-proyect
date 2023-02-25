@@ -179,6 +179,7 @@
 }
 
 .img-surftrip-04{
+    width: 400px;
     padding-right: 6px;
     padding-bottom: 6px;
     border-radius: 20px;
@@ -190,6 +191,7 @@
 }
 
 .img-surftrip-06{
+    width: 400px;
     padding-right: 6px;
     padding-top: 6px;
     border-radius: 20px;
@@ -201,6 +203,8 @@
 }
 
 .img-surftrip-03{
+    width: 400px;
+    height: 401px;
     padding-left: 6px;
     padding-right: 6px;
     padding-bottom: 6px;
@@ -213,6 +217,8 @@
 }
 
 .img-snowtrip-03{
+    width: 400px;
+    height: 401px;
     padding-left: 6px;
     padding-right: 6px;
     padding-top: 6px;
@@ -225,6 +231,7 @@
 }
 
 .img-snowtrip-06{
+    width: 400px;
     padding-bottom: 6px;
     border-radius: 20px;
     transition: all 300ms ease;
@@ -235,6 +242,8 @@
 }
 
 .img-snowtrip-04{
+    width: 400px;
+    height: 609px;
     padding-top: 6px;
     border-radius: 20px;
     transition: all 300ms ease;
@@ -459,31 +468,33 @@ footer{
 }
 
 .mainNextTrips__card-3-location{
-    color: black;
+    color: #CDD1C4 #0b2027;
     font-family: 'Oswald', sans-serif;
     font-size: 25px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    font-weight: bold;
 }
 
 .mainNextTrips__card-3-date{
-    color: black;
+    color: #CDD1C4;
     font-family: 'Oswald', sans-serif;
     font-size: 25px;
     display: flex;
     flex-direction: row;
     align-items: center;
     padding-top: 5px;
+    font-weight: bold;
 }
 
 .mainNextTrips__card-3-price{
-    color: black;
+    color: #CDD1C4;
     font-size: 25px;
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
     padding-top: 150px;
-    padding-bottom: 15px;
+    padding-bottom: 5px;
 }
 
 
@@ -505,6 +516,8 @@ footer{
 
 .card-location-text{
     padding-left: 5px;
+    font-weight: bold;
+    margin-bottom: 0px;
 }
 
 .mainNextTrips__card-date{
@@ -523,6 +536,8 @@ footer{
 
 .card-date-text{
     padding-left: 5px;
+    font-weight: bold;
+    margin-bottom: 0px;
 }
 
 .mainNextTrips__card-price{
@@ -623,7 +638,9 @@ footer{
 }
 
 .location-text{
+    padding-top: 10px;
     padding-left: 5px;
+    font-size: 35px;
 }
 
 .accomSection1__1-text-1{
@@ -634,7 +651,7 @@ footer{
 
 .accomSection1__1-text-2{
     font-family: 'Oswald', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
     width: 67%;
 }
@@ -682,6 +699,18 @@ footer{
     padding: 6px;
 }
 
+
+
+.accomSection-container{
+    width: 66%;
+    height: 80%;
+    padding: 10px 0 40px 0;
+    border: 3px solid #20FC8F;
+    border-radius: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
 /* Sección 2 */
 
 .accomSection2{
@@ -707,7 +736,6 @@ footer{
     color:#20FC8F;
     font-size: 20px;
     padding-top: 10px;
-    width: 67%;
 }
 
 .accomIcon{
@@ -726,7 +754,8 @@ footer{
     color:#20FC8F;
     text-align: center;
     padding-bottom: 50px;
-    width: 67%;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 /* Sección 3 */
@@ -739,6 +768,10 @@ footer{
     align-items: center;
     color: #CDD1C4;
     text-align: center;
+}
+
+.accomSection3 ul{
+    padding-left: 0px;
 }
 
 .accomSection3 ul li{
@@ -779,7 +812,7 @@ footer{
     font-family: 'Oswald', sans-serif;
     font-size: 900%;
     color: #CDD1C4;
-    opacity: 0.7;
+    opacity: 0.6;
     text-align: center;
     padding-top: 8%;
     font-weight: bold;
@@ -971,7 +1004,7 @@ footer{
     
     .header-title h1{
         font-size: 360%;
-        padding-top: 23%;
+        padding-top: 21%;
     }
 
     /* FOOTER */
@@ -1120,6 +1153,7 @@ footer{
     }
 
     .img-snowtrip-04{
+        height: 251.5px;
         padding-top: 2px;
         border-radius: 8px;
         width: 165px;
@@ -1302,14 +1336,14 @@ footer{
 
     .header-surf{
         background-image: url(../img/surf/img-header-surf-mobile.jpg);
-        height: 230px;
+        height: 215px;
         background-size: 100%;
         background-position: center bottom;
     }
 
     .header-snow{
         background-image: url(../img/snow/img-header-snow-mobile.jpg);
-        height: 230px;
+        height: 215px;
         background-size: 100%;
         background-position: center bottom;
     }
@@ -1373,6 +1407,17 @@ footer{
         width: 90%;
     }
 
+
+    .accomSection-container{
+        width: 84%;
+        height: 80%;
+        padding: 20px 0 20px 0;
+        border: 3px solid #20FC8F;
+        border-radius: 25px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
     /* Sección 2 */
     
     .accomSection2__1-title{
@@ -1382,7 +1427,7 @@ footer{
     
     .accomSection2__2-icons{
         padding-top: 15px;
-        width: 95%;
+        width: 90%;
     }
     
     .accomIcon{
@@ -1400,9 +1445,8 @@ footer{
 
     .accomSection2__3-text{
         font-size: 16px;
-        padding-bottom: 20px;
-        padding-top: 30px;
-        width: 95%;
+        padding: 20px 20px 20px 20px;
+        width: 100%;
     }
 
     /* Sección 3 */
@@ -1427,7 +1471,7 @@ footer{
 
     .header-contact{
         background-image: url(../img/contact/img-header-contact-mobile.jpg);
-        height: 230px;
+        height: 215px;
         background-size: 100%;
         background-position: center bottom;
     }
