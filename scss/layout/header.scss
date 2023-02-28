@@ -1,0 +1,35 @@
+.navbar{
+    .container-fluid{
+        background-color: $primary-color;
+        padding: 10px;
+        .navbar-corner-logo{
+            padding-left: 19px;
+        }
+        .navbar-toggler{
+            background-color: $primary-color;
+            border-color: $secondary-color;
+            border-width: 2px;
+            margin-right: 15px;
+            svg{
+                color: $secondary-color;
+            }
+        }
+    }
+}
+
+.navbar-nav{ 
+    li{
+        text-decoration: none;
+        padding-left: 20px;
+        padding-top: 4px;
+    }
+        a{
+            color: $secondary-color;
+            &:hover{
+                color: $secondary-color;
+                -webkit-text-stroke: 1px $secondary-color;
+            }
+        }
+}
+
+

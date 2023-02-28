@@ -1,0 +1,254 @@
+// Start Section
+#startSection{
+    .start-logo{
+        width: 100%;
+        height: 0%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .start-logo-bk{
+            // height: 660px;
+            opacity: 0.6;
+            width: 100%;
+        }
+        .logo{
+            width: 25%;
+            position: absolute;
+            padding-top: 33%;
+        }
+    }
+    .start-videoBg video{
+        width: 100%;
+        margin-bottom: -10px;
+    }
+}
+// Welcome Section
+#welcSection{
+    background-color: $bk-color;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    color: $tertiary-color;
+    .welcSection-container{
+        width: 95%;
+        border: 3px solid $tertiary-color;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: row;
+        padding: 25px 0 50px 0;
+        &:hover{
+            border-color: $secondary-color;
+            color: $secondary-color;
+        }
+        .welcSection__1 img{
+            height: 300px;
+            opacity: 0.15;
+            position: absolute;
+        }
+        .welcSection__2{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .welcSection__title{
+                padding-top: 30px;
+                padding-bottom: 10px;
+                font-size: 50px;
+            }
+            .welcSection__line{
+                height: 4px;
+                background-color: $tertiary-color;
+            }
+            .welcSection__description{
+                font-size: 20px;
+                padding-top: 20px;
+                text-align: center;
+                width: 70%;
+            }
+        }    
+    }
+}
+
+// .index-line{
+//     display: flex;
+//     justify-content: center;
+//     background-color: $primary-color;
+//     hr{
+//         width: 80%;
+//         height: 5px;
+//         color: $secondary-color;
+//     }
+// }
+// Trips Section
+.tripsSection{
+    .img-tripsSection{
+        background-color: $bk-color;
+        padding: 50px 0 50px 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        .img-tripsSection-column1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .img-surftrip-04{
+                width: 400px;
+                padding: 0 6px 6px 0;
+                border-radius: 20px;
+                transition: all 300ms ease;
+                &:hover{
+                    transform: scale(1.03);
+                }
+            }
+            .img-surftrip-06{
+                width: 400px;
+                padding: 6px 6px 0 0;
+                border-radius: 20px;
+                transition: all 300ms ease;
+                &:hover{
+                    transform: scale(1.03);
+                }
+            }
+        }
+        .img-tripsSection-column2{
+            display: flex;
+            flex-direction: column;
+            .img-surftrip-03{
+                width: 400px;
+                height: 401px;
+                padding: 0 6px 6px 6px;
+                border-radius: 20px;
+                transition: all 300ms ease;
+                &:hover{
+                    transform: scale(1.03);
+                }
+            }
+            .img-snowtrip-03{
+                width: 400px;
+                height: 401px;
+                padding: 6px 6px 0 6px;
+                border-radius: 20px;
+                transition: all 300ms ease;
+                &:hover{
+                    transform: scale(1.03);
+                }
+            } 
+        }
+        .img-tripsSection-column3{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-left: 5px;
+            .img-snowtrip-06{
+                width: 400px;
+                padding: 0 0 6px 0;
+                border-radius: 20px;
+                transition: all 300ms ease;
+                &:hover{
+                    transform: scale(1.03);
+                }
+            } 
+            .img-snowtrip-04{
+                width: 400px;
+                height: 609px;
+                padding: 6px 0 0 0;
+                border-radius: 20px;
+                transition: all 300ms ease;
+                &:hover{
+                    transform: scale(1.03);
+                }
+            } 
+        }
+    }
+    
+    .trips-button{
+        background-color:transparent;
+        width: 120px;
+        height: 60px;
+        position: absolute;
+        color: $secondary-color;
+        font-size: 35px;
+        border: 3px solid $secondary-color;
+        border-radius: 10px;
+        text-align: center;
+        cursor: pointer;
+        transition: all 0.2s;
+        margin-top: -100px;
+        margin-left: -60px;
+        &:hover{
+            background-color: $primary-color;
+            border: none;
+            transition: all 0.2s;
+        }
+    }  
+}
+// Why Section
+#whySection{
+    background-color: $bk-color;
+    background-size: cover;
+    color: $tertiary-color;
+    display: flex;
+    justify-content: center;
+    padding: 0 0 30px 0;
+    .whySection-container{
+        width: 95%;
+        border: 3px solid $tertiary-color;
+        border-radius: 20px;
+        .whySection__title{
+            padding-top: 50px;
+            font-size: 68px;
+            text-align: center;
+        }
+        .whySection__desc{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            padding: 50px 0 50px 0;
+            .why-container{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                transition: all 300ms ease;
+                &:hover{
+                    transform: scale(1.1);
+                }
+                .svg-img{
+                    height: 150px;
+                //     &::before {
+                //         opacity: 1;
+                //     }
+                //     filter: brightness(0) saturate(100%) invert(39%) sepia(3%) saturate(0%) hue-rotate(255deg) brightness(94%) contrast(89%);
+                // }
+                }
+                h4{
+                    font-size: 25px;
+                    padding-top: 20px;
+                }
+                p{
+                    font-size: 18px;
+                }
+            }
+        }    
+    }
+}
+// Final Section
+#finalSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px 0 10px 0;
+    background-color: $primary-color;
+    img{
+        width: 48%;
+        padding: 5px 5px 5px 5px;
+        border-radius: 20px;
+    }
+}
+

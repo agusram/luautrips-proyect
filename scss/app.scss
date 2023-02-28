@@ -1,0 +1,22 @@
+
+// General
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@import "../scss/general/color.scss";
+@import "../scss/general/typo.scss";
+
+//Layout
+@import "../scss/layout/header.scss";
+@import "../scss/layout/footer.scss";
+
+// Pag
+@import "../scss/pag/index.scss";
+@import "../scss/pag/proximosTrips.scss";
+@import "../scss/pag/reserva.scss";
+@import "../scss/pag/surf.scss";
+@import "../scss/pag/snow.scss";
+@import "../scss/pag/contacto.scss";
+
+

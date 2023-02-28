@@ -115,7 +115,7 @@
     display: flex;
     justify-content: center;
     background-color: #0b2027;
-    color: #CDD1C4;
+    color: #20FC8F;
 }
 
 
@@ -468,7 +468,7 @@ footer{
 }
 
 .mainNextTrips__card-3-location{
-    color: #CDD1C4 #0b2027;
+    color: #CDD1C4;
     font-family: 'Oswald', sans-serif;
     font-size: 25px;
     display: flex;
@@ -557,7 +557,7 @@ footer{
     color: #20FC8F;
     font-size: 30px;
     font-weight: bold;
-    border: 2px solid #20FC8F;
+    border: 3px solid #20FC8F;
     border-radius: 10px;
     margin-bottom: 40px;
     cursor: pointer;
@@ -582,7 +582,7 @@ footer{
 
 .header-surf{
     background-image: url(../img/surf/img-header-surf.jpg);
-    height: 400px;
+    height: 425px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
@@ -590,7 +590,7 @@ footer{
 
 .header-snow{
     background-image: url(../img/snow/img-header-snow.jpg);
-    height: 400px;
+    height: 425px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
@@ -798,7 +798,7 @@ footer{
 
 .header-contact{
     background-image: url(../img/contact/img-contact.jpeg);
-    height: 400px;
+    height: 425px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
@@ -814,7 +814,7 @@ footer{
     color: #CDD1C4;
     opacity: 0.6;
     text-align: center;
-    padding-top: 8%;
+    padding-top: 10%;
     font-weight: bold;
 }
 
@@ -1004,7 +1004,7 @@ footer{
     
     .header-title h1{
         font-size: 360%;
-        padding-top: 21%;
+        padding-top: 17%;
     }
 
     /* FOOTER */
