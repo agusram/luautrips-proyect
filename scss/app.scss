@@ -3,6 +3,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 @import "../scss/general/color.scss";
 @import "../scss/general/typo.scss";
@@ -13,10 +14,11 @@
 
 // Pag
 @import "../scss/pag/index.scss";
-@import "../scss/pag/proximosTrips.scss";
+@import "../scss/pag/proxTrips.scss";
 @import "../scss/pag/reserva.scss";
 @import "../scss/pag/surf.scss";
 @import "../scss/pag/snow.scss";
 @import "../scss/pag/contacto.scss";
+
 
 

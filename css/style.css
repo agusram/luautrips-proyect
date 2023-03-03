@@ -621,6 +621,11 @@ footer{
 .accomSection1__1-img{
     width: 67%;
     border-radius: 15px;
+    opacity: 0.5;
+}
+
+.accomSection1__1-title{
+    padding-top: 30px;
 }
 
 .accomSection1__1-location{

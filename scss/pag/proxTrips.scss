@@ -1,0 +1,222 @@
+#mainNextTrips{
+    background-color: $primary-color;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px 0 30px 0;
+}
+// Carrusel en modo mobile
+#content-itemCarousel{
+    display: none;
+    height: 700px;
+    width: 385px;
+    overflow: hidden;
+    .itemCarousel{
+        position: relative;
+        .arrowCarousel{
+            height: 700px;
+            width: 385px;
+            position: absolute;
+            top: 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+        }
+    }
+}
+.arrow{
+    width: 12px;
+    opacity: 0.5;
+}
+
+// Tarjetas
+.mainNextTrips__card-1{
+    background-image: url(../img/nextTrips/img-nextTrips01.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 700px;
+    border-radius: 20px;
+    height: 700px;
+    width: 385px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0;
+}
+.mainNextTrips__card-2{
+    background-image: url(../img/nextTrips/img-nextTrips02.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 700px;
+    border-radius: 20px;
+    height: 700px;
+    width: 385px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}    
+.mainNextTrips__card-3{
+    background-image: url(../img/nextTrips/img-nextTrips03.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 700px;
+    border-radius: 20px;
+    height: 700px;
+    width: 385px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    font-weight: bold;
+}    
+
+// Tarjetas - En común
+.mainNextTrips__card-location{
+    color: $tertiary-color;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bold;
+    .card-location-icon{
+        padding-right: 5px;
+        height: 30px;
+    }
+    .card-location-text{
+        padding-left: 5px;
+        font-weight: bold;
+        margin-bottom: 0px;
+    }
+}
+
+.mainNextTrips__card-date{
+    color: $tertiary-color;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 5px;
+    .card-date-icon{
+        padding-right: 5px;
+        height: 30px;
+    }
+    .card-date-text{
+        padding-left: 5px;
+        font-weight: bold;
+        margin-bottom: 0px;
+    }
+}
+
+.mainNextTrips__card-price{
+    color: $tertiary-color;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 70px 0 15px 0;
+}
+
+.mainNextTrips__card-button{
+    background-color: transparent;
+    width: 150px;
+    height: 60px;
+    color: $secondary-color;
+    font-size: 30px;
+    font-weight: bold;
+    border: 2px solid $secondary-color;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    transition: all 0.2s;
+    &:hover{
+        background-color: $primary-color;
+        border: none;
+        transition: all 0.2s;
+    }
+}
+
+
+@media screen and (max-width:576px){
+    #content-itemCarousel{
+        display: flex;
+        height: 600px;
+        width: 330px;
+        overflow: hidden;
+        .itemCarousel{
+            position: relative;
+            .arrowCarousel{
+                height: 300px;
+                width: 330px;
+                position: absolute;
+                top: 0;
+                margin-top: 150px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 20px;
+            }
+        }
+    }
+
+    .mainNextTrips__card-1{
+        background-size: auto 600px;
+        border-radius: 15px;
+        height: 600px;
+        width: 330px;
+    }
+    .mainNextTrips__card-2{
+        background-size: auto 600px;
+        border-radius: 15px;
+        height: 600px;
+        width: 330px;
+    }    
+    .mainNextTrips__card-3{
+        background-size: auto 600px;
+        border-radius: 20px;
+        height: 600px;
+        width: 330px;
+    }
+    
+    .mainNextTrips__card-location{
+        .card-location-icon{
+            padding-right: 2px;
+            width: 25px;
+        }
+        .card-location-text{
+            padding-left: 2px;
+            font-size: 19px;
+        }
+    }
+    
+    .mainNextTrips__card-date{
+        .card-date-icon{
+            width: 17%;
+        }
+        .card-date-text{
+            font-size: 18px;
+        }
+    }
+    
+    .mainNextTrips__card-price{
+        font-size: 19px;
+        padding: 60px 0 10px 0;
+    }
+
+    .mainNextTrips__card-3-price{
+        color: $tertiary-color;
+        font-size: 19px;
+        padding: 120px 0 10px 0;
+    }
+    
+    .mainNextTrips__card-button{
+        width: 120px;
+        height: 50px;
+        font-size: 23px;
+        border-radius: 10px;
+        &:hover{
+            background-color: $primary-color;
+            color: $secondary-color;
+            transition: all 0.2s;
+        }
+    }
+}

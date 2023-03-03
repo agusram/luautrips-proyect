@@ -65,7 +65,7 @@
                 text-align: center;
                 width: 70%;
             }
-        }    
+        }   
     }
 }
 
@@ -230,7 +230,7 @@
                     padding-top: 20px;
                 }
                 p{
-                    font-size: 18px;
+                    font-size: 20px;
                 }
             }
         }    
@@ -247,8 +247,142 @@
     background-color: $primary-color;
     img{
         width: 48%;
-        padding: 5px 5px 5px 5px;
+        padding: 5px;
         border-radius: 20px;
     }
 }
 
+
+@media screen and (max-width:576px){
+    #welcSection{
+        padding: 8% 0 3% 0;
+        color: $secondary-color;
+        .welcSection-container{
+            width: 90%;
+            border: 2px solid $secondary-color;
+            border-radius: 10px;
+            padding: 0 0 0 0;
+            .welcSection__1 img{
+                display: none;
+                // padding: 20px 0 0 0;
+                // height: 200px;
+                // opacity: 0.1;
+            }
+            .welcSection__2{
+                padding: 0 0 0 0;
+                .welcSection__title{
+                    padding: 20px 0 5px 0;
+                    font-size: 23px;
+                }
+                .welcSection__line{
+                    width: 250px;
+                    height: 3px;
+                    margin: 0 0 0 0;
+                }
+                .welcSection__description{
+                    font-size: 16px;
+                    padding: 10px;
+                    width: 100%;
+                }
+            }
+        }         
+    }
+
+    .tripsSection{
+        .img-tripsSection{
+            padding: 10px 0 10px 0;
+            .img-tripsSection-column1{
+                margin: 2px 0 2px 0;
+                .img-surftrip-04{
+                    width: 165px;
+                    padding: 0 2px 2px 0;
+                    border-radius: 8px;
+                }
+                .img-surftrip-06{
+                    width: 165px;
+                    padding: 2px 2px 0 0;
+                    border-radius: 8px;
+                }
+            }
+            .img-tripsSection-column2{
+                display: none;
+            }
+            .img-tripsSection-column3{
+                margin: 2px 0 2px 2px;
+                .img-snowtrip-06{
+                    width: 165px;
+                    padding: 2px 0 2px 0;
+                    border-radius: 8px;
+                } 
+                .img-snowtrip-04{
+                    width: 165px;
+                    height: 251.5px;
+                    padding: 2px 0 0 0;
+                    border-radius: 8px;
+                } 
+            }
+        }
+        
+        .trips-button{
+            width: 55px;
+            height: 30px;
+            font-size: 17px;
+            border: 2px solid $secondary-color;
+            border-radius: 5px;
+            margin-top: -40px;
+            margin-left: -25px;
+            transition: all 0.2s;
+            &:active{
+                background-color: $primary-color;
+                color: $secondary-color;
+                border: none;
+                transition: all 0.2s;
+            }
+        }  
+    }
+
+    #whySection{
+        padding: 15px 0 15px 0;
+        .whySection-container{
+            width: 90%;
+            border: 2px solid $tertiary-color;
+            border-radius: 10px;
+            .whySection__title{
+                padding-top: 30px;
+                font-size: 35px;
+            }
+            .whySection__desc{
+                padding: 20px 0 10px 0;
+                .why-container{
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    .svg-img{
+                        height: 110px;
+                    //     &::before {
+                    //         opacity: 1;
+                    //     }
+                    //     filter: brightness(0) saturate(100%) invert(39%) sepia(3%) saturate(0%) hue-rotate(255deg) brightness(94%) contrast(89%);
+                    // }
+                    }
+                    h4{
+                        font-size: 20px;
+                        padding-top: 18px;
+                    }
+                    p{
+                        font-size: 16px;
+                    }
+                }
+            }    
+        }
+    }
+    
+    #finalSection{
+        flex-direction: column;
+        align-items: center;
+        img{
+            width: 90%;
+            padding: 2px;
+            border-radius: 15px;
+        }
+    }
+}    
