@@ -1,0 +1,289 @@
+.main-accom{
+    background-color: $bk-color;
+}
+// Sección 1
+.accomSection1__1{
+    margin: 0 9% 0 9%;
+    .accomSection1__1-location{
+        color:$tertiary-color;
+        display: flex;
+        flex-direction: row;
+        padding: 8% 0 10px 0;
+        .location-icon{
+            height: 27px;
+            padding-right: 5px;
+        }
+        .location-text{
+            font-size: 25px;
+        }
+    }
+    .accomSection1__1-title{
+        width: 50%;
+        height: auto;
+    }
+    .accomSection1__1-house{
+        display: flex;
+        flex-direction: row;
+        img{
+            width: 50vw;
+            height: 100%;
+            border-radius: 20px 60px;
+            opacity: 0.5;
+            margin-top: 20px;
+        }
+        .accomSection1__1-text{
+            width: 120%;
+            color: $tertiary-color;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding-left: 20px;
+            .text-1{
+                font-size: 25px;
+                padding-top: 20px;
+            }
+            .text-2{
+                font-size: 19px;
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+//Carrusel
+.carousel{
+    width: 82%;
+    margin: 2% 9% 0 9%;
+}
+.accomSection1__2-line1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.accomSection1__2-line2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.accomSection1__2-line3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.item{
+        padding: 6px;
+        .item-item{
+            border-radius: 30px;
+        }
+}
+.carousel-control-prev{
+    margin-left: -5%;
+}
+.carousel-control-next{
+    margin-right: -5%;
+}
+
+.accomSection-container{
+    width: 80%;
+    height: 80%;
+    padding: 40px 0 30px 0;
+    border: 3px solid $secondary-color;
+    border-radius: 25px 100px;
+    margin: 30px 0 20px 0;
+    // Sección 2
+    .accomSection2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: $secondary-color;
+        .accomSection2__1-title{
+            font-size: 25px;
+            font-weight: bold;
+        }
+        .accomSection2__2-icons{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: wrap;
+            font-size: 20px;
+            padding-top: 15px;
+            .accomIcon{
+                padding: 20px;
+                text-align: center;
+                .icon-icon{
+                    height: 50px;
+                    padding-bottom: 7px;
+                }
+            }
+        }
+        .accomSection2__3-text{
+            font-size: 20px;
+            text-align: center;
+            padding: 0 40px 50px 40px;
+        }
+    }
+    // Sección 3
+    .accomSection3{
+        font-size: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: $secondary-color;
+        text-align: center;
+        ul{
+            padding-left: 0px;
+            li{
+                font-size: 20px;
+                list-style-type: none;
+                &::before{
+                    content: ">>";
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:576px){
+    // Sección 1
+    .accomSection1__1{
+        margin: 0;
+        .accomSection1__1-location{
+            padding: 5% 0 5px 0;
+            .location-icon{
+                height: 20px;
+            }
+            .location-text{
+                font-size: 18px;
+            }
+        }
+        .accomSection1__1-title{
+            width: 80%;
+            height: auto;
+        }
+        .accomSection1__1-house{
+            flex-wrap: wrap;
+            img{
+                width: 100%;
+            }
+            .accomSection1__1-text{
+                width: 100%;
+                text-align: center;
+                justify-content: center;
+                padding-left: 0;
+                .text-1{
+                    font-size: 20px;
+                    padding: 15px 0 0 0;
+                }
+                .text-2{
+                    font-size: 17px;
+                    padding: 0 0 20px 0;
+                }
+            }
+        }
+    }
+    //Carrusel
+    .carousel{
+        width: 100%;
+        margin: 0;
+    }
+    .item{
+            padding: 3px;
+            .item-item{
+                border-radius: 10px;
+            }
+    }
+    .carousel-control-prev{
+        margin-left: -10px;
+    }
+    .carousel-control-next{
+        margin-right: -10px;
+    }
+
+    .accomSection-container{
+        width: 90%;
+        padding: 35px 0 25px 0;
+        border: 2px solid $secondary-color;
+        border-radius: 20px 70px;
+        margin: 25px 0 25px 0;
+        // Sección 2
+        .accomSection2{
+            .accomSection2__1-title{
+                font-size: 20px;
+                padding-bottom: 10px;
+            }
+            .accomSection2__2-icons{
+                padding-top: 5px;
+                .accomIcon{
+                    padding: 10px;
+                    text-align: center;
+                    .icon-icon{
+                        height: 45px;
+                        padding-bottom: 10px;
+                    }
+                    .text-icon{
+                        font-size: 15px;
+                    }
+                }
+            }
+            .accomSection2__3-text{
+                font-size: 17px;
+                padding: 15px;
+            }
+        }
+        // Sección 3
+        .accomSection3{
+            font-size: 20px;
+            padding-top: 30px;
+            ul{
+                li{
+                    font-size: 17px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:1279px){
+    .accomSection1__1{
+        .accomSection1__1-location{
+            .location-icon{
+                height: 22px;
+            }
+            .location-text{
+                font-size: 20px;
+            }
+        }
+        .accomSection1__1-title{
+            width: 65%;
+        }
+        .accomSection1__1-house{
+            flex-wrap: wrap;
+            img{
+                width: 100%;
+            }
+            .accomSection1__1-text{
+                text-align: center;
+                .text-1{
+                    font-size: 23px;
+                }
+                .text-2{
+                    font-size: 18px;
+                    padding-bottom: 10px;
+                }
+            }
+        }
+    }
+    // Carrusel
+    .item{
+        padding: 5px;
+        .item-item{
+            border-radius: 15px;
+        }
+}
+}
+
+
+
+
+

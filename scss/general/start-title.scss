@@ -1,0 +1,15 @@
+.start-title{
+    img{
+        width: 100%;
+        height: auto;
+        position: absolute;
+    }
+    h1{
+        font-size: calc(1em + 10vw);
+        color: $tertiary-color;
+        opacity: 0.6;
+        padding-top: 16%;
+        text-align: center;
+        font-weight: bold;
+    }
+}

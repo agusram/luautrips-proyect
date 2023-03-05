@@ -10,6 +10,19 @@
 li {
   font-size: 20px; }
 
+.start-title img {
+  width: 100%;
+  height: auto;
+  position: absolute; }
+
+.start-title h1 {
+  font-size: calc(1em + 10vw);
+  color: #CDD1C4;
+  opacity: 0.6;
+  padding-top: 16%;
+  text-align: center;
+  font-weight: bold; }
+
 .navbar .container-fluid {
   background-color: #0b2027;
   padding: 8px; }
@@ -96,7 +109,7 @@ footer {
   #welcSection .welcSection-container {
     width: 95%;
     border: 3px solid #CDD1C4;
-    border-radius: 20px;
+    border-radius: 25px 70px;
     display: flex;
     flex-direction: row;
     padding: 25px 0 50px 0; }
@@ -137,15 +150,15 @@ footer {
     align-items: center; }
     .tripsSection .img-tripsSection .img-tripsSection-column1 .img-surftrip-04 {
       width: 400px;
-      padding: 0 6px 6px 0;
-      border-radius: 20px;
+      margin: 0 6px 6px 0;
+      border-radius: 25px;
       transition: all 300ms ease; }
       .tripsSection .img-tripsSection .img-tripsSection-column1 .img-surftrip-04:hover {
         transform: scale(1.03); }
     .tripsSection .img-tripsSection .img-tripsSection-column1 .img-surftrip-06 {
       width: 400px;
-      padding: 6px 6px 0 0;
-      border-radius: 20px;
+      margin: 6px 6px 0 0;
+      border-radius: 25px;
       transition: all 300ms ease; }
       .tripsSection .img-tripsSection .img-tripsSection-column1 .img-surftrip-06:hover {
         transform: scale(1.03); }
@@ -155,16 +168,16 @@ footer {
     .tripsSection .img-tripsSection .img-tripsSection-column2 .img-surftrip-03 {
       width: 400px;
       height: 401px;
-      padding: 0 6px 6px 6px;
-      border-radius: 20px;
+      margin: 0 6px 6px 6px;
+      border-radius: 25px 60px;
       transition: all 300ms ease; }
       .tripsSection .img-tripsSection .img-tripsSection-column2 .img-surftrip-03:hover {
         transform: scale(1.03); }
     .tripsSection .img-tripsSection .img-tripsSection-column2 .img-snowtrip-03 {
       width: 400px;
       height: 401px;
-      padding: 6px 6px 0 6px;
-      border-radius: 20px;
+      margin: 6px 6px 0 6px;
+      border-radius: 25px 60px;
       transition: all 300ms ease; }
       .tripsSection .img-tripsSection .img-tripsSection-column2 .img-snowtrip-03:hover {
         transform: scale(1.03); }
@@ -175,16 +188,15 @@ footer {
     margin-left: 5px; }
     .tripsSection .img-tripsSection .img-tripsSection-column3 .img-snowtrip-06 {
       width: 400px;
-      padding: 0 0 6px 0;
-      border-radius: 20px;
+      margin: 0 0 6px 0;
+      border-radius: 25px;
       transition: all 300ms ease; }
       .tripsSection .img-tripsSection .img-tripsSection-column3 .img-snowtrip-06:hover {
         transform: scale(1.03); }
     .tripsSection .img-tripsSection .img-tripsSection-column3 .img-snowtrip-04 {
       width: 400px;
-      height: 609px;
-      padding: 6px 0 0 0;
-      border-radius: 20px;
+      margin: 6px 0 0 0;
+      border-radius: 25px;
       transition: all 300ms ease; }
       .tripsSection .img-tripsSection .img-tripsSection-column3 .img-snowtrip-04:hover {
         transform: scale(1.03); }
@@ -218,7 +230,7 @@ footer {
   #whySection .whySection-container {
     width: 95%;
     border: 3px solid #CDD1C4;
-    border-radius: 20px; }
+    border-radius: 25px 80px; }
     #whySection .whySection-container .whySection__title {
       padding-top: 50px;
       font-size: 68px;
@@ -258,7 +270,7 @@ footer {
   #finalSection img {
     width: 48%;
     padding: 5px;
-    border-radius: 20px; }
+    border-radius: 25px 60px; }
 
 @media screen and (max-width: 576px) {
   #welcSection {
@@ -267,7 +279,7 @@ footer {
     #welcSection .welcSection-container {
       width: 90%;
       border: 2px solid #20FC8F;
-      border-radius: 10px;
+      border-radius: 15px 50px;
       padding: 0 0 0 0; }
       #welcSection .welcSection-container .welcSection__1 img {
         display: none; }
@@ -289,34 +301,30 @@ footer {
     .tripsSection .img-tripsSection .img-tripsSection-column1 {
       margin: 2px 0 2px 0; }
       .tripsSection .img-tripsSection .img-tripsSection-column1 .img-surftrip-04 {
-        width: 165px;
-        padding: 0 2px 2px 0;
-        border-radius: 8px; }
+        width: 90%;
+        margin: 0;
+        border-radius: 20px 50px; }
       .tripsSection .img-tripsSection .img-tripsSection-column1 .img-surftrip-06 {
-        width: 165px;
-        padding: 2px 2px 0 0;
-        border-radius: 8px; }
+        display: none; }
     .tripsSection .img-tripsSection .img-tripsSection-column2 {
       display: none; }
     .tripsSection .img-tripsSection .img-tripsSection-column3 {
       margin: 2px 0 2px 2px; }
       .tripsSection .img-tripsSection .img-tripsSection-column3 .img-snowtrip-06 {
-        width: 165px;
-        padding: 2px 0 2px 0;
-        border-radius: 8px; }
+        display: none; }
       .tripsSection .img-tripsSection .img-tripsSection-column3 .img-snowtrip-04 {
-        width: 165px;
-        height: 251.5px;
-        padding: 2px 0 0 0;
-        border-radius: 8px; }
+        width: 90%;
+        height: auto;
+        margin: 10px 0 0 0;
+        border-radius: 20px 50px; }
   .tripsSection .trips-button {
-    width: 55px;
-    height: 30px;
-    font-size: 17px;
+    width: 110px;
+    height: 60px;
+    font-size: 30px;
     border: 2px solid #20FC8F;
-    border-radius: 5px;
-    margin-top: -40px;
-    margin-left: -25px;
+    border-radius: 10px;
+    margin-top: -95px;
+    margin-left: -55px;
     transition: all 0.2s; }
     .tripsSection .trips-button:active {
       background-color: #0b2027;
@@ -326,9 +334,9 @@ footer {
   #whySection {
     padding: 15px 0 15px 0; }
     #whySection .whySection-container {
-      width: 90%;
+      width: 85%;
       border: 2px solid #CDD1C4;
-      border-radius: 10px; }
+      border-radius: 30px; }
       #whySection .whySection-container .whySection__title {
         padding-top: 30px;
         font-size: 35px; }
@@ -350,7 +358,7 @@ footer {
     #finalSection img {
       width: 90%;
       padding: 2px;
-      border-radius: 15px; } }
+      border-radius: 15px 50px; } }
 
 #mainNextTrips {
   background-color: #0b2027;
@@ -385,10 +393,10 @@ footer {
 .mainNextTrips__card-1 {
   background-image: url(../img/nextTrips/img-nextTrips01.jpg);
   background-repeat: no-repeat;
-  background-size: auto 700px;
-  border-radius: 20px;
-  height: 700px;
-  width: 385px;
+  background-size: auto 650px;
+  border-radius: 20px 60px;
+  height: 600px;
+  width: 355px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -398,10 +406,10 @@ footer {
 .mainNextTrips__card-2 {
   background-image: url(../img/nextTrips/img-nextTrips02.jpg);
   background-repeat: no-repeat;
-  background-size: auto 700px;
-  border-radius: 20px;
-  height: 700px;
-  width: 385px;
+  background-size: auto 650px;
+  border-radius: 20px 60px;
+  height: 600px;
+  width: 355px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -410,15 +418,19 @@ footer {
 .mainNextTrips__card-3 {
   background-image: url(../img/nextTrips/img-nextTrips03.jpg);
   background-repeat: no-repeat;
-  background-size: auto 700px;
-  border-radius: 20px;
-  height: 700px;
-  width: 385px;
+  background-size: auto 650px;
+  border-radius: 20px 60px;
+  height: 600px;
+  width: 355px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
   font-weight: bold; }
+  .mainNextTrips__card-3 .mainNextTrips__card-3-price {
+    color: #CDD1C4;
+    font-size: 25px;
+    padding: 70px 0 15px 0; }
 
 .mainNextTrips__card-location {
   color: #CDD1C4;
@@ -454,7 +466,7 @@ footer {
   color: #CDD1C4;
   font-size: 25px;
   font-weight: bold;
-  padding: 70px 0 15px 0; }
+  padding: 50px 0 15px 0; }
 
 .mainNextTrips__card-button {
   background-color: transparent;
@@ -493,19 +505,19 @@ footer {
         padding: 20px; }
   .mainNextTrips__card-1 {
     background-size: auto 600px;
-    border-radius: 15px;
     height: 600px;
     width: 330px; }
   .mainNextTrips__card-2 {
     background-size: auto 600px;
-    border-radius: 15px;
     height: 600px;
     width: 330px; }
   .mainNextTrips__card-3 {
     background-size: auto 600px;
-    border-radius: 20px;
     height: 600px;
     width: 330px; }
+    .mainNextTrips__card-3 .mainNextTrips__card-3-price {
+      font-size: 19px;
+      padding: 120px 0 10px 0; }
   .mainNextTrips__card-location .card-location-icon {
     padding-right: 2px;
     width: 25px; }
@@ -519,10 +531,6 @@ footer {
   .mainNextTrips__card-price {
     font-size: 19px;
     padding: 60px 0 10px 0; }
-  .mainNextTrips__card-3-price {
-    color: #CDD1C4;
-    font-size: 19px;
-    padding: 120px 0 10px 0; }
   .mainNextTrips__card-button {
     width: 120px;
     height: 50px;
@@ -532,3 +540,211 @@ footer {
       background-color: #0b2027;
       color: #20FC8F;
       transition: all 0.2s; } }
+
+.main-accom {
+  background-color: #0b2027; }
+
+.accomSection1__1 {
+  margin: 0 9% 0 9%; }
+  .accomSection1__1 .accomSection1__1-location {
+    color: #CDD1C4;
+    display: flex;
+    flex-direction: row;
+    padding: 8% 0 10px 0; }
+    .accomSection1__1 .accomSection1__1-location .location-icon {
+      height: 27px;
+      padding-right: 5px; }
+    .accomSection1__1 .accomSection1__1-location .location-text {
+      font-size: 25px; }
+  .accomSection1__1 .accomSection1__1-title {
+    width: 50%;
+    height: auto; }
+  .accomSection1__1 .accomSection1__1-house {
+    display: flex;
+    flex-direction: row; }
+    .accomSection1__1 .accomSection1__1-house img {
+      width: 50vw;
+      height: 100%;
+      border-radius: 20px 60px;
+      opacity: 0.5;
+      margin-top: 20px; }
+    .accomSection1__1 .accomSection1__1-house .accomSection1__1-text {
+      width: 120%;
+      color: #CDD1C4;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding-left: 20px; }
+      .accomSection1__1 .accomSection1__1-house .accomSection1__1-text .text-1 {
+        font-size: 25px;
+        padding-top: 20px; }
+      .accomSection1__1 .accomSection1__1-house .accomSection1__1-text .text-2 {
+        font-size: 19px;
+        margin-bottom: 0; }
+
+.carousel {
+  width: 82%;
+  margin: 2% 9% 0 9%; }
+
+.accomSection1__2-line1 {
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+
+.accomSection1__2-line2 {
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+
+.accomSection1__2-line3 {
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+
+.item {
+  padding: 6px; }
+  .item .item-item {
+    border-radius: 30px; }
+
+.carousel-control-prev {
+  margin-left: -5%; }
+
+.carousel-control-next {
+  margin-right: -5%; }
+
+.accomSection-container {
+  width: 80%;
+  height: 80%;
+  padding: 40px 0 30px 0;
+  border: 3px solid #20FC8F;
+  border-radius: 25px 100px;
+  margin: 30px 0 20px 0; }
+  .accomSection-container .accomSection2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #20FC8F; }
+    .accomSection-container .accomSection2 .accomSection2__1-title {
+      font-size: 25px;
+      font-weight: bold; }
+    .accomSection-container .accomSection2 .accomSection2__2-icons {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap: wrap;
+      font-size: 20px;
+      padding-top: 15px; }
+      .accomSection-container .accomSection2 .accomSection2__2-icons .accomIcon {
+        padding: 20px;
+        text-align: center; }
+        .accomSection-container .accomSection2 .accomSection2__2-icons .accomIcon .icon-icon {
+          height: 50px;
+          padding-bottom: 7px; }
+    .accomSection-container .accomSection2 .accomSection2__3-text {
+      font-size: 20px;
+      text-align: center;
+      padding: 0 40px 50px 40px; }
+  .accomSection-container .accomSection3 {
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #20FC8F;
+    text-align: center; }
+    .accomSection-container .accomSection3 ul {
+      padding-left: 0px; }
+      .accomSection-container .accomSection3 ul li {
+        font-size: 20px;
+        list-style-type: none; }
+        .accomSection-container .accomSection3 ul li::before {
+          content: ">>";
+          margin-right: 5px; }
+
+@media screen and (max-width: 576px) {
+  .accomSection1__1 {
+    margin: 0; }
+    .accomSection1__1 .accomSection1__1-location {
+      padding: 5% 0 5px 0; }
+      .accomSection1__1 .accomSection1__1-location .location-icon {
+        height: 20px; }
+      .accomSection1__1 .accomSection1__1-location .location-text {
+        font-size: 18px; }
+    .accomSection1__1 .accomSection1__1-title {
+      width: 80%;
+      height: auto; }
+    .accomSection1__1 .accomSection1__1-house {
+      flex-wrap: wrap; }
+      .accomSection1__1 .accomSection1__1-house img {
+        width: 100%; }
+      .accomSection1__1 .accomSection1__1-house .accomSection1__1-text {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        padding-left: 0; }
+        .accomSection1__1 .accomSection1__1-house .accomSection1__1-text .text-1 {
+          font-size: 20px;
+          padding: 15px 0 0 0; }
+        .accomSection1__1 .accomSection1__1-house .accomSection1__1-text .text-2 {
+          font-size: 17px;
+          padding: 0 0 20px 0; }
+  .carousel {
+    width: 100%;
+    margin: 0; }
+  .item {
+    padding: 3px; }
+    .item .item-item {
+      border-radius: 10px; }
+  .carousel-control-prev {
+    margin-left: -10px; }
+  .carousel-control-next {
+    margin-right: -10px; }
+  .accomSection-container {
+    width: 90%;
+    padding: 35px 0 25px 0;
+    border: 2px solid #20FC8F;
+    border-radius: 20px 70px;
+    margin: 25px 0 25px 0; }
+    .accomSection-container .accomSection2 .accomSection2__1-title {
+      font-size: 20px;
+      padding-bottom: 10px; }
+    .accomSection-container .accomSection2 .accomSection2__2-icons {
+      padding-top: 5px; }
+      .accomSection-container .accomSection2 .accomSection2__2-icons .accomIcon {
+        padding: 10px;
+        text-align: center; }
+        .accomSection-container .accomSection2 .accomSection2__2-icons .accomIcon .icon-icon {
+          height: 45px;
+          padding-bottom: 10px; }
+        .accomSection-container .accomSection2 .accomSection2__2-icons .accomIcon .text-icon {
+          font-size: 15px; }
+    .accomSection-container .accomSection2 .accomSection2__3-text {
+      font-size: 17px;
+      padding: 15px; }
+    .accomSection-container .accomSection3 {
+      font-size: 20px;
+      padding-top: 30px; }
+      .accomSection-container .accomSection3 ul li {
+        font-size: 17px; } }
+
+@media screen and (min-width: 576px) and (max-width: 1279px) {
+  .accomSection1__1 .accomSection1__1-location .location-icon {
+    height: 22px; }
+  .accomSection1__1 .accomSection1__1-location .location-text {
+    font-size: 20px; }
+  .accomSection1__1 .accomSection1__1-title {
+    width: 65%; }
+  .accomSection1__1 .accomSection1__1-house {
+    flex-wrap: wrap; }
+    .accomSection1__1 .accomSection1__1-house img {
+      width: 100%; }
+    .accomSection1__1 .accomSection1__1-house .accomSection1__1-text {
+      text-align: center; }
+      .accomSection1__1 .accomSection1__1-house .accomSection1__1-text .text-1 {
+        font-size: 23px; }
+      .accomSection1__1 .accomSection1__1-house .accomSection1__1-text .text-2 {
+        font-size: 18px;
+        padding-bottom: 10px; }
+  .item {
+    padding: 5px; }
+    .item .item-item {
+      border-radius: 15px; } }

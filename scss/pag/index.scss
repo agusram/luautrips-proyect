@@ -33,7 +33,7 @@
     .welcSection-container{
         width: 95%;
         border: 3px solid $tertiary-color;
-        border-radius: 20px;
+        border-radius: 25px 70px;
         display: flex;
         flex-direction: row;
         padding: 25px 0 50px 0;
@@ -94,8 +94,8 @@
             align-items: center;
             .img-surftrip-04{
                 width: 400px;
-                padding: 0 6px 6px 0;
-                border-radius: 20px;
+                margin: 0 6px 6px 0;
+                border-radius: 25px;
                 transition: all 300ms ease;
                 &:hover{
                     transform: scale(1.03);
@@ -103,8 +103,8 @@
             }
             .img-surftrip-06{
                 width: 400px;
-                padding: 6px 6px 0 0;
-                border-radius: 20px;
+                margin: 6px 6px 0 0;
+                border-radius: 25px;
                 transition: all 300ms ease;
                 &:hover{
                     transform: scale(1.03);
@@ -117,8 +117,8 @@
             .img-surftrip-03{
                 width: 400px;
                 height: 401px;
-                padding: 0 6px 6px 6px;
-                border-radius: 20px;
+                margin: 0 6px 6px 6px;
+                border-radius: 25px 60px;
                 transition: all 300ms ease;
                 &:hover{
                     transform: scale(1.03);
@@ -127,8 +127,8 @@
             .img-snowtrip-03{
                 width: 400px;
                 height: 401px;
-                padding: 6px 6px 0 6px;
-                border-radius: 20px;
+                margin: 6px 6px 0 6px;
+                border-radius: 25px 60px;
                 transition: all 300ms ease;
                 &:hover{
                     transform: scale(1.03);
@@ -142,8 +142,8 @@
             margin-left: 5px;
             .img-snowtrip-06{
                 width: 400px;
-                padding: 0 0 6px 0;
-                border-radius: 20px;
+                margin: 0 0 6px 0;
+                border-radius: 25px;
                 transition: all 300ms ease;
                 &:hover{
                     transform: scale(1.03);
@@ -151,9 +151,8 @@
             } 
             .img-snowtrip-04{
                 width: 400px;
-                height: 609px;
-                padding: 6px 0 0 0;
-                border-radius: 20px;
+                margin: 6px 0 0 0;
+                border-radius: 25px;
                 transition: all 300ms ease;
                 &:hover{
                     transform: scale(1.03);
@@ -194,7 +193,7 @@
     .whySection-container{
         width: 95%;
         border: 3px solid $tertiary-color;
-        border-radius: 20px;
+        border-radius: 25px 80px;
         .whySection__title{
             padding-top: 50px;
             font-size: 68px;
@@ -248,7 +247,7 @@
     img{
         width: 48%;
         padding: 5px;
-        border-radius: 20px;
+        border-radius: 25px 60px;
     }
 }
 
@@ -260,7 +259,7 @@
         .welcSection-container{
             width: 90%;
             border: 2px solid $secondary-color;
-            border-radius: 10px;
+            border-radius: 15px 50px;
             padding: 0 0 0 0;
             .welcSection__1 img{
                 display: none;
@@ -294,14 +293,12 @@
             .img-tripsSection-column1{
                 margin: 2px 0 2px 0;
                 .img-surftrip-04{
-                    width: 165px;
-                    padding: 0 2px 2px 0;
-                    border-radius: 8px;
+                    width: 90%;
+                    margin: 0;
+                    border-radius: 20px 50px;
                 }
                 .img-surftrip-06{
-                    width: 165px;
-                    padding: 2px 2px 0 0;
-                    border-radius: 8px;
+                    display: none;
                 }
             }
             .img-tripsSection-column2{
@@ -310,27 +307,25 @@
             .img-tripsSection-column3{
                 margin: 2px 0 2px 2px;
                 .img-snowtrip-06{
-                    width: 165px;
-                    padding: 2px 0 2px 0;
-                    border-radius: 8px;
+                    display: none;
                 } 
                 .img-snowtrip-04{
-                    width: 165px;
-                    height: 251.5px;
-                    padding: 2px 0 0 0;
-                    border-radius: 8px;
+                    width: 90%;
+                    height: auto;
+                    margin: 10px 0 0 0;
+                    border-radius: 20px 50px;
                 } 
             }
         }
         
         .trips-button{
-            width: 55px;
-            height: 30px;
-            font-size: 17px;
+            width: 110px;
+            height: 60px;
+            font-size: 30px;
             border: 2px solid $secondary-color;
-            border-radius: 5px;
-            margin-top: -40px;
-            margin-left: -25px;
+            border-radius: 10px;
+            margin-top: -95px;
+            margin-left: -55px;
             transition: all 0.2s;
             &:active{
                 background-color: $primary-color;
@@ -344,9 +339,9 @@
     #whySection{
         padding: 15px 0 15px 0;
         .whySection-container{
-            width: 90%;
+            width: 85%;
             border: 2px solid $tertiary-color;
-            border-radius: 10px;
+            border-radius: 30px;
             .whySection__title{
                 padding-top: 30px;
                 font-size: 35px;
@@ -382,7 +377,7 @@
         img{
             width: 90%;
             padding: 2px;
-            border-radius: 15px;
+            border-radius: 15px 50px;
         }
     }
 }    

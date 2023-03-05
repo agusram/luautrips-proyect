@@ -1,5 +1,5 @@
 #mainNextTrips{
-    background-color: $primary-color;
+    background-color: $bk-color;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -36,10 +36,10 @@
 .mainNextTrips__card-1{
     background-image: url(../img/nextTrips/img-nextTrips01.jpg);
     background-repeat: no-repeat;
-    background-size: auto 700px;
-    border-radius: 20px;
-    height: 700px;
-    width: 385px;
+    background-size: auto 650px;
+    border-radius: 20px 60px;
+    height: 600px;
+    width: 355px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -49,10 +49,13 @@
 .mainNextTrips__card-2{
     background-image: url(../img/nextTrips/img-nextTrips02.jpg);
     background-repeat: no-repeat;
-    background-size: auto 700px;
-    border-radius: 20px;
-    height: 700px;
-    width: 385px;
+    // background-size: auto 700px;
+    background-size: auto 650px;
+    border-radius: 20px 60px;
+    // height: 700px;
+    // width: 385px;
+    height: 600px;
+    width: 355px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -61,15 +64,20 @@
 .mainNextTrips__card-3{
     background-image: url(../img/nextTrips/img-nextTrips03.jpg);
     background-repeat: no-repeat;
-    background-size: auto 700px;
-    border-radius: 20px;
-    height: 700px;
-    width: 385px;
+    background-size: auto 650px;
+    border-radius: 20px 60px;
+    height: 600px;
+    width: 355px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
     font-weight: bold;
+    .mainNextTrips__card-3-price{
+        color: $tertiary-color;
+        font-size: 25px;
+        padding: 70px 0 15px 0;
+    }
 }    
 
 // Tarjetas - En común
@@ -113,7 +121,7 @@
     color: $tertiary-color;
     font-size: 25px;
     font-weight: bold;
-    padding: 70px 0 15px 0;
+    padding: 50px 0 15px 0;
 }
 
 .mainNextTrips__card-button{
@@ -160,21 +168,22 @@
 
     .mainNextTrips__card-1{
         background-size: auto 600px;
-        border-radius: 15px;
         height: 600px;
         width: 330px;
     }
     .mainNextTrips__card-2{
         background-size: auto 600px;
-        border-radius: 15px;
         height: 600px;
         width: 330px;
     }    
     .mainNextTrips__card-3{
         background-size: auto 600px;
-        border-radius: 20px;
         height: 600px;
         width: 330px;
+        .mainNextTrips__card-3-price{
+            font-size: 19px;
+            padding: 120px 0 10px 0;
+        }
     }
     
     .mainNextTrips__card-location{
@@ -200,12 +209,6 @@
     .mainNextTrips__card-price{
         font-size: 19px;
         padding: 60px 0 10px 0;
-    }
-
-    .mainNextTrips__card-3-price{
-        color: $tertiary-color;
-        font-size: 19px;
-        padding: 120px 0 10px 0;
     }
     
     .mainNextTrips__card-button{
