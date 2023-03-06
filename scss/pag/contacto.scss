@@ -3,6 +3,7 @@
     text-align: center;
     background-color: $tertiary-color;
     font-family: 'Source Sans Pro', sans-serif;
+    //En común con página /reserva
     .full-name{
         background-color: none;
         width: 345px;
@@ -14,10 +15,12 @@
         margin: 0px 2.5px 10px 0px;
         padding: 0 5px 0 5px;
     }
+    //En común con página /reserva
     .email{
         @extend .full-name;
         margin: 0px 0px 10px 2.5px;
     }
+    //En común con página /reserva
     .comments{
         background-color: none;
         width: 700px;
@@ -26,9 +29,10 @@
         font-size: 15px;
         border: 3px solid $primary-color;
         border-radius: 5px;
-        margin-bottom: 15px;
+        margin-bottom: 10px;
         padding: 0 5px 0 5px;
     }
+    //En común con página /reserva
     .contact-button{
         width: 700px;
         height: 35px;
@@ -52,21 +56,19 @@
 @media screen and (max-width:576px){
     .form{
         margin-top: -10px;
-        padding: 30px 0 30px 0;
+        padding: 50px 0 50px 0;
         .full-name{
             width: 90%;
             margin: 0px 0px 10px 0px;
-            height: 31px;
         }
         .email{
             width: 90%;
             margin: 0px 0px 10px 0px;
-            height: 31px;
         }
         .comments{
             width: 90%;
             height: 200px;
-            margin-bottom: 7px;
+            margin-bottom: 10px;
         }
         .contact-button{
             width: 90%;

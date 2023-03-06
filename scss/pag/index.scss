@@ -41,10 +41,12 @@
             border-color: $secondary-color;
             color: $secondary-color;
         }
-        .welcSection__1 img{
-            height: 300px;
-            opacity: 0.15;
-            position: absolute;
+        .welcSection__1{
+            img{
+                height: 300px;
+                opacity: 0.15;
+                position: absolute;
+            }
         }
         .welcSection__2{
             display: flex;
@@ -68,16 +70,6 @@
         }   
     }
 }
-// .index-line{
-//     display: flex;
-//     justify-content: center;
-//     background-color: $primary-color;
-//     hr{
-//         width: 80%;
-//         height: 5px;
-//         color: $secondary-color;
-//     }
-// }
 // Trips Section
 .tripsSection{
     .img-tripsSection{
@@ -390,6 +382,7 @@
             .welcSection__2{
                 .welcSection__title{
                     font-size: 40px;
+                    padding-top: 40px;
                 }
                 .welcSection__line{
                     width: 50%;
@@ -397,6 +390,7 @@
                 }
                 .welcSection__description{
                     width: 80%;
+                    padding-bottom: 20px;
                 }
             }   
         }
@@ -406,7 +400,7 @@
             padding: 25px 0 25px 0;
             flex-wrap: nowrap;
             .img-tripsSection-column1{
-                margin: 2px -15px 2px 0;
+                margin: 0 -15px 0 0;
                 .img-surftrip-04{
                     width: 90%;
                     margin: 0;
@@ -420,7 +414,7 @@
                 display: none;
             }
             .img-tripsSection-column3{
-                margin: 2px 0 2px -15px;
+                margin: 0 0 0 -15px;
                 .img-snowtrip-06{
                     display: none;
                 } 

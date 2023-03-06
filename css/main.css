@@ -371,17 +371,19 @@ footer {
         border-color: #20FC8F;
         color: #20FC8F; }
       #welcSection .welcSection-container .welcSection__2 .welcSection__title {
-        font-size: 40px; }
+        font-size: 40px;
+        padding-top: 40px; }
       #welcSection .welcSection-container .welcSection__2 .welcSection__line {
         width: 50%;
         margin: 0; }
       #welcSection .welcSection-container .welcSection__2 .welcSection__description {
-        width: 80%; }
+        width: 80%;
+        padding-bottom: 20px; }
   .tripsSection .img-tripsSection {
     padding: 25px 0 25px 0;
     flex-wrap: nowrap; }
     .tripsSection .img-tripsSection .img-tripsSection-column1 {
-      margin: 2px -15px 2px 0; }
+      margin: 0 -15px 0 0; }
       .tripsSection .img-tripsSection .img-tripsSection-column1 .img-surftrip-04 {
         width: 90%;
         margin: 0;
@@ -391,7 +393,7 @@ footer {
     .tripsSection .img-tripsSection .img-tripsSection-column2 {
       display: none; }
     .tripsSection .img-tripsSection .img-tripsSection-column3 {
-      margin: 2px 0 2px -15px; }
+      margin: 0 0 0 -15px; }
       .tripsSection .img-tripsSection .img-tripsSection-column3 .img-snowtrip-06 {
         display: none; }
       .tripsSection .img-tripsSection .img-tripsSection-column3 .img-snowtrip-04 {
@@ -668,28 +670,24 @@ select option {
 
 @media screen and (max-width: 576px) {
   .booking-form {
-    padding-top: 10px;
+    padding: 0;
     margin-top: -10px; }
     .booking-form .auto, .booking-form .pax, .booking-form .pay {
       width: 90%;
-      margin: 0 0 10px 0;
-      height: 31px; }
+      margin: 0 0 10px 0; }
     .booking-form .contact {
       width: 90%;
-      margin-bottom: 10px;
-      height: 31px; }
+      margin-bottom: 10px; }
     .booking-form .booking-line {
       width: 90%; }
     .booking-form .pax {
       width: 15%;
-      height: 31px;
       margin: 10px 1.5% 10px 0; }
     .booking-form .pay {
-      width: 73%;
-      height: 31px; }
+      width: 73%; }
     .booking-form .booking-text {
       font-size: 17px;
-      margin: 0 5% 0 5%; } }
+      margin: 0 5% -10px 5%; } }
 
 .main-accom {
   background-color: #0b2027; }
@@ -924,7 +922,7 @@ select option {
     font-size: 15px;
     border: 3px solid #0b2027;
     border-radius: 5px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     padding: 0 5px 0 5px; }
   .form .contact-button {
     width: 700px;
@@ -946,19 +944,17 @@ select option {
 @media screen and (max-width: 576px) {
   .form {
     margin-top: -10px;
-    padding: 30px 0 30px 0; }
+    padding: 50px 0 50px 0; }
     .form .full-name, .form .email {
       width: 90%;
-      margin: 0px 0px 10px 0px;
-      height: 31px; }
+      margin: 0px 0px 10px 0px; }
     .form .email {
       width: 90%;
-      margin: 0px 0px 10px 0px;
-      height: 31px; }
+      margin: 0px 0px 10px 0px; }
     .form .comments {
       width: 90%;
       height: 200px;
-      margin-bottom: 7px; }
+      margin-bottom: 10px; }
     .form .contact-button {
       width: 90%; }
       .form .contact-button:active {

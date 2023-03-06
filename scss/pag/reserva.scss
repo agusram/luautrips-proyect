@@ -60,33 +60,29 @@ select{
 
 @media screen and (max-width:576px){
     .booking-form{
-        padding-top: 10px;
+        padding: 0;
         margin-top: -10px;
         .auto{
             width: 90%;
             margin: 0 0 10px 0;
-            height: 31px;
         }
         .contact{
             width: 90%;
             margin-bottom: 10px;
-            height: 31px;
         }
         .booking-line{
             width: 90%;
         }
         .pax{
             width: 15%;
-            height: 31px;
             margin: 10px 1.5% 10px 0;
         }
         .pay{
             width: 73%;
-            height: 31px;
         }
         .booking-text{
             font-size: 17px;
-            margin: 0 5% 0 5%;
+            margin: 0 5% -10px 5%;
         }
     }
 }

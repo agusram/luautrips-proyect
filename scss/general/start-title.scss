@@ -1,7 +1,6 @@
 .start-title{
     img{
-        width: 100%;
-        height: auto;
+        @include start-title-bkSize (100%,auto);
         position: absolute;
     }
     h1{

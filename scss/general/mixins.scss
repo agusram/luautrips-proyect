@@ -1,4 +1,10 @@
+// finalSection - INDEX
 @mixin img-finalSection ($img-finalSection-width, $img-finalSection-height){
     width: $img-finalSection-width;
     height: $img-finalSection-height;
+}
+// start-title.scss
+@mixin start-title-bkSize ($start-title-width, $start-title-height){
+    width: $start-title-width;
+    height: $start-title-height;
 }
