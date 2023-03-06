@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 @import "../scss/general/color.scss";
+@import "../scss/general/mixins.scss";
 @import "../scss/general/typo.scss";
 @import "../scss/general/start-title.scss";
 
@@ -18,8 +19,7 @@
 @import "../scss/pag/index.scss";
 @import "../scss/pag/proxTrips.scss";
 @import "../scss/pag/reserva.scss";
-@import "../scss/pag/surf.scss";
-@import "../scss/pag/snow.scss";
+@import "../scss/pag/surf_snow.scss";
 @import "../scss/pag/contacto.scss";
 
 

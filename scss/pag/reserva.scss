@@ -1,0 +1,92 @@
+.booking-form{
+    padding-top: 5px;
+    .auto{
+        background-color: white;
+        width: 440px;
+        height: 35px;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: $primary-color;
+        font-size: 15px;
+        border: 3px solid $primary-color;
+        border-radius: 5px;
+        margin: 0 5px 10px 0;
+        padding: 0 5px 0 5px;
+    }
+    .contact{
+        background-color: none;
+        width: 250px;
+        height: 35px;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: $primary-color;
+        font-size: 15px;
+        border: 3px solid $primary-color;
+        border-radius: 5px;
+        padding: 0 5px 0 5px;
+    }
+    .booking-line{
+        width: 700px;
+        height: 3px;
+        background-color: $primary-color;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .pax{
+        @extend .auto;
+        width: 70px;
+        height: 35px;
+        margin: 10px 5px 10px 5px;
+    }
+    .pay{
+        @extend .auto;
+        width: 620px;
+        height: 35px;
+        margin-bottom: 10px;
+    }
+    .booking-text{
+        text-align: center;
+        color: $primary-color;
+        font-size: 19px;
+        margin-bottom: -5px;
+    }
+}
+
+select{
+    option{
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+}
+
+
+@media screen and (max-width:576px){
+    .booking-form{
+        padding-top: 10px;
+        margin-top: -10px;
+        .auto{
+            width: 90%;
+            margin: 0 0 10px 0;
+            height: 31px;
+        }
+        .contact{
+            width: 90%;
+            margin-bottom: 10px;
+            height: 31px;
+        }
+        .booking-line{
+            width: 90%;
+        }
+        .pax{
+            width: 15%;
+            height: 31px;
+            margin: 10px 1.5% 10px 0;
+        }
+        .pay{
+            width: 73%;
+            height: 31px;
+        }
+        .booking-text{
+            font-size: 17px;
+            margin: 0 5% 0 5%;
+        }
+    }
+}

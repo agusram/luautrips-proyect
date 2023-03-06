@@ -1,0 +1,80 @@
+.form{
+    padding: 6% 0 45px 0;
+    text-align: center;
+    background-color: $tertiary-color;
+    font-family: 'Source Sans Pro', sans-serif;
+    .full-name{
+        background-color: none;
+        width: 345px;
+        height: 35px;
+        color: $primary-color;
+        font-size: 15px;
+        border: 3px solid $primary-color;
+        border-radius: 5px;
+        margin: 0px 2.5px 10px 0px;
+        padding: 0 5px 0 5px;
+    }
+    .email{
+        @extend .full-name;
+        margin: 0px 0px 10px 2.5px;
+    }
+    .comments{
+        background-color: none;
+        width: 700px;
+        height: 250px;
+        color: $primary-color;
+        font-size: 15px;
+        border: 3px solid $primary-color;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        padding: 0 5px 0 5px;
+    }
+    .contact-button{
+        width: 700px;
+        height: 35px;
+        border: 3px solid $primary-color;
+        border-radius:5px;
+        font-size: 20px;
+        font-family: 'Oswald', sans-serif;
+        color: $primary-color;
+        background-color: $secondary-color;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.2s;
+        &:hover{
+            background-color: $primary-color;
+            color: $secondary-color;
+            transition: all 0.2s;
+        }
+    }
+}
+
+@media screen and (max-width:576px){
+    .form{
+        margin-top: -10px;
+        padding: 30px 0 30px 0;
+        .full-name{
+            width: 90%;
+            margin: 0px 0px 10px 0px;
+            height: 31px;
+        }
+        .email{
+            width: 90%;
+            margin: 0px 0px 10px 0px;
+            height: 31px;
+        }
+        .comments{
+            width: 90%;
+            height: 200px;
+            margin-bottom: 7px;
+        }
+        .contact-button{
+            width: 90%;
+            &:active{
+                background-color: $primary-color;
+                color: $secondary-color;
+                transition: all 0.2s;
+            }
+        }
+    }
+}

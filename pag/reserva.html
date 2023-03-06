@@ -4,22 +4,53 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Poppins&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="../css/style.css">
-        <title>Luau Trips</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/main.css">
+        <title>RESERVA | Luau Trips</title>
     </head>
     <body>
         <header class="header-booking">
-            <a class="header-bookingIsotype" href="../index.html">
-                <img src="../img/logo/logo-13.png" height="45px" alt="">
-            </a>
-            <div class="header-titleBooking">
-                <h1>RESERVA</h1>
+            <nav class="navbar navbar-expand-lg p-0">
+                <div class="container-fluid">
+                    <a class="navbar-corner-logo d-xl-none d-lg-none d-xl-block" href="../index.html">
+                        <img src="../img/logo/logo-13.png" height="45px" class="navbar-logo" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <svg class="burguer-menu" height="2rem" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
+                        </svg>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a href="../index.html" style="text-decoration:none">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../pag/proxTrips.html" style="text-decoration:none">PROXIMOS TRIPS</a>
+                            </li>
+                            <li class="empty-li d-sm-block d-sm-none d-md-block d-md-none d-lg-block"></li>
+                        </ul>
+                        <a class="d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block" href="../index.html">
+                            <img src="../img/logo/logo-13.png" height="45px" class="navbar-logo" alt="">
+                        </a>
+                        <ul class="navbar-nav me-auto">    
+                            <li class="nav-item">
+                                <a href="../pag/surf.html" style="text-decoration:none">SURF</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../pag/snow.html" style="text-decoration:none">SNOW</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../pag/contacto.html" style="text-decoration:none">CONTACTO</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="start-title">
+                <img src="../img/booking/img-booking.jpg" alt="">
+                <h1 class="animate__animated animate__flipInX">RESERVA</h1>
             </div>
         </header>
         <main class="booking-form">
@@ -35,7 +66,7 @@
                 </select>
                 <!-- <input type="text" name="" class="auto" placeholder="">  -->
                 <input type="text" name="" class="contact" placeholder="CONTACTO">
-                <hr width="705px" class="booking-line">
+                <hr class="booking-line">
                 <select name="" class="pax">
                     <option value="" disabled selected>PAX</option>
                     <option value="">1</option>
@@ -68,5 +99,6 @@
                 <img src="../img/icons/instagram.svg" height="25px" class="f-icon" alt="">
             </div>
         </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     </body>
 </html>
