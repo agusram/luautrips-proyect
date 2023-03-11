@@ -24,6 +24,16 @@ li {
   text-align: center;
   font-weight: bold; }
 
+@media screen and (max-width: 576px) {
+  .start-title {
+    width: 100%;
+    height: auto; }
+    .start-title img {
+      width: 130%;
+      left: -50px; }
+    .start-title h1 {
+      padding-top: 24%; } }
+
 .navbar .container-fluid {
   background-color: #0b2027;
   padding: 8px; }
@@ -965,7 +975,7 @@ select option {
 @media screen and (max-width: 576px) {
   .form {
     margin-top: -10px;
-    padding: 60px 0 60px 0; }
+    padding: 60px 0 55px 0; }
     .form .full-name, .form .email {
       width: 90%;
       margin: 0px 0px 10px 0px; }
