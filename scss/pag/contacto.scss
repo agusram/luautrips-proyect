@@ -1,3 +1,17 @@
+.start-title-contact{
+    img{
+        @include start-title-bkSize (100%,auto);
+        position: absolute;
+    }
+    h1{
+        font-size: calc(1em + 10vw);
+        color: $tertiary-color;
+        opacity: 0.6;
+        padding-top: 16%;
+        text-align: center;
+        font-weight: bold;
+    }
+}
 .form{
     padding: 6% 0 45px 0;
     text-align: center;
@@ -54,9 +68,20 @@
 }
 
 @media screen and (max-width:576px){
+    .start-title-contact{
+        img{
+            min-width: 100%;
+            min-height: 222px;
+            object-fit: cover;
+        }
+        h1{
+            padding: 22% 0 2% 0;
+            margin-bottom: 0;
+        }
+    }
     .form{
-        margin-top: -10px;
-        padding: 60px 0 55px 0;
+        position: relative;
+        padding: 55px 0 55px 0;
         .full-name{
             width: 90%;
             margin: 0px 0px 10px 0px;

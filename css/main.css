@@ -24,16 +24,6 @@ li {
   text-align: center;
   font-weight: bold; }
 
-@media screen and (max-width: 576px) {
-  .start-title {
-    width: 100%;
-    height: auto; }
-    .start-title img {
-      width: 130%;
-      left: -50px; }
-    .start-title h1 {
-      padding-top: 24%; } }
-
 .navbar .container-fluid {
   background-color: #0b2027;
   padding: 8px; }
@@ -79,7 +69,8 @@ footer {
       width: 250px; }
   footer .footer-icons img {
     padding: 0 10px 0 10px;
-    height: 25px; }
+    height: 25px;
+    cursor: pointer; }
 
 @media screen and (max-width: 576px) {
   footer {
@@ -631,49 +622,52 @@ footer {
       color: #20FC8F;
       transition: all 0.2s; } }
 
-.booking-form {
-  padding-top: 5px; }
-  .booking-form .auto, .booking-form .pax, .booking-form .pay {
-    background-color: white;
-    width: 440px;
-    height: 35px;
-    font-family: 'Source Sans Pro', sans-serif;
-    color: #0b2027;
-    font-size: 15px;
-    border: 3px solid #0b2027;
-    border-radius: 5px;
-    margin: 0 5px 10px 0;
-    padding: 0 5px 0 5px; }
-  .booking-form .contact {
-    background-color: none;
-    width: 250px;
-    height: 35px;
-    font-family: 'Source Sans Pro', sans-serif;
-    color: #0b2027;
-    font-size: 15px;
-    border: 3px solid #0b2027;
-    border-radius: 5px;
-    padding: 0 5px 0 5px; }
-  .booking-form .booking-line {
-    width: 700px;
-    height: 3px;
-    background-color: #0b2027;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px; }
-  .booking-form .pax {
-    width: 70px;
-    height: 35px;
-    margin: 10px 5px 10px 5px; }
-  .booking-form .pay {
-    width: 620px;
-    height: 35px;
-    margin-bottom: 10px; }
-  .booking-form .booking-text {
-    text-align: center;
-    color: #0b2027;
-    font-size: 19px;
-    margin-bottom: -5px; }
+.booking-form .auto, .booking-form .pax, .booking-form .pay {
+  background-color: white;
+  width: 440px;
+  height: 35px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #0b2027;
+  font-size: 15px;
+  border: 3px solid #0b2027;
+  border-radius: 5px;
+  margin: 0 5px 10px 0;
+  padding: 0 5px 0 5px; }
+
+.booking-form .contact {
+  background-color: none;
+  width: 250px;
+  height: 35px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #0b2027;
+  font-size: 15px;
+  border: 3px solid #0b2027;
+  border-radius: 5px;
+  padding: 0 5px 0 5px; }
+
+.booking-form .booking-line {
+  width: 700px;
+  height: 3px;
+  background-color: #0b2027;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.booking-form .pax {
+  width: 70px;
+  height: 35px;
+  margin: 10px 5px 10px 5px; }
+
+.booking-form .pay {
+  width: 620px;
+  height: 35px;
+  margin-bottom: 10px; }
+
+.booking-form .booking-text {
+  text-align: center;
+  color: #0b2027;
+  font-size: 19px;
+  margin-bottom: -5px; }
 
 select option {
   font-family: 'Source Sans Pro', sans-serif; }
@@ -928,6 +922,19 @@ select option {
     .item .item-item {
       border-radius: 15px; } }
 
+.start-title-contact img {
+  width: 100%;
+  height: auto;
+  position: absolute; }
+
+.start-title-contact h1 {
+  font-size: calc(1em + 10vw);
+  color: #CDD1C4;
+  opacity: 0.6;
+  padding-top: 16%;
+  text-align: center;
+  font-weight: bold; }
+
 .form {
   padding: 6% 0 45px 0;
   text-align: center;
@@ -973,9 +980,16 @@ select option {
       transition: all 0.2s; }
 
 @media screen and (max-width: 576px) {
+  .start-title-contact img {
+    min-width: 100%;
+    min-height: 222px;
+    object-fit: cover; }
+  .start-title-contact h1 {
+    padding: 22% 0 2% 0;
+    margin-bottom: 0; }
   .form {
-    margin-top: -10px;
-    padding: 60px 0 55px 0; }
+    position: relative;
+    padding: 55px 0 55px 0; }
     .form .full-name, .form .email {
       width: 90%;
       margin: 0px 0px 10px 0px; }
