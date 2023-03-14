@@ -20,6 +20,9 @@
         height: 180px;
         overflow: hidden;
         position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
         img{
             position:absolute;
             left: -100%;
@@ -32,8 +35,7 @@
             object-fit: cover;
         }
         h1{
-            padding-top: 15%;
-            margin-bottom: 0;
+            margin-bottom: 15px;
         }
     }
 }
