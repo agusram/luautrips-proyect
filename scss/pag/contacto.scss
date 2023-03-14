@@ -1,53 +1,100 @@
-.mainContact{
+.contact-text{
+    margin: 0;
+    padding: 80px 0 0 0;
     background-color: $tertiary-color;
-    .form{
-        padding: 6% 0 45px 0;
+    display: flex;
+    justify-content: center;
+    p{
+        margin: 0;
+        width: 700px;
+        font-size: 19px;
         text-align: center;
-        background-color: $tertiary-color;
-        font-family: 'Source Sans Pro', sans-serif;
-        //En común con página /reserva
-        .full-name{
-            background-color: none;
-            width: 345px;
-            height: 35px;
-            color: $primary-color;
-            font-size: 15px;
-            border: 3px solid $primary-color;
-            border-radius: 5px;
-            margin: 0px 2.5px 10px 0px;
-            padding: 0 5px 0 5px;
-        }
-        //En común con página /reserva
-        .email{
-            @extend .full-name;
-            margin: 0px 0px 10px 2.5px;
-        }
-        //En común con página /reserva
-        .comments{
-            background-color: none;
-            width: 700px;
-            height: 250px;
-            color: $primary-color;
-            font-size: 15px;
-            border: 3px solid $primary-color;
-            border-radius: 5px;
-            margin-bottom: 10px;
-            padding: 0 5px 0 5px;
-        }
-        //En común con página /reserva
-        .contact-button{
-            width: 700px;
-            height: 35px;
-            border: 3px solid $primary-color;
-            border-radius:5px;
-            font-size: 20px;
-            font-family: 'Oswald', sans-serif;
-            color: $primary-color;
-            background-color: $secondary-color;
-            font-weight: bold;
-            cursor: pointer;
+        color: $primary-color;
+    }
+}
+.form{
+    padding: 45px 0 45px 0;
+    text-align: center;
+    background-color: $tertiary-color;
+    font-family: 'Source Sans Pro', sans-serif;
+    //En común con página /reserva
+    .full-name{
+        background-color: none;
+        width: 345px;
+        height: 35px;
+        color: $primary-color;
+        font-size: 15px;
+        border: 3px solid $primary-color;
+        border-radius: 5px;
+        margin: 0px 2.5px 10px 0px;
+        padding: 0 5px 0 5px;
+    }
+    //En común con página /reserva
+    .email{
+        @extend .full-name;
+        margin: 0px 0px 10px 2.5px;
+    }
+    //En común con página /reserva
+    .comments{
+        background-color: none;
+        width: 700px;
+        height: 250px;
+        color: $primary-color;
+        font-size: 15px;
+        border: 3px solid $primary-color;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        padding: 0 5px 0 5px;
+    }
+    //En común con página /reserva
+    .contact-button{
+        width: 700px;
+        height: 35px;
+        border: 3px solid $primary-color;
+        border-radius:5px;
+        font-size: 20px;
+        font-family: 'Oswald', sans-serif;
+        color: $primary-color;
+        background-color: $secondary-color;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.2s;
+        &:hover{
+            background-color: $primary-color;
+            color: $secondary-color;
             transition: all 0.2s;
-            &:hover{
+        }
+    }
+}
+
+
+@media screen and (max-width:576px){
+    .contact-text{
+        padding: 40px 0 0 0;
+        p{
+            width: 90%;
+            font-size: 17px;
+        }
+    }
+    .form{
+        margin-top: -10px;
+        padding: 50px 0 50px 0;
+        .full-name{
+            width: 90%;
+            margin: 0px 0px 10px 0px;
+        }
+        .email{
+            width: 90%;
+            margin: 0px 0px 10px 0px;
+        }
+        .comments{
+            width: 90%;
+            height: 200px;
+            margin-bottom: 10px;
+        }
+        .contact-button{
+            width: 90%;
+            &:active{
                 background-color: $primary-color;
                 color: $secondary-color;
                 transition: all 0.2s;
@@ -56,61 +103,34 @@
     }
 }
 
-
-@media screen and (max-width:576px){
-    .mainContact{
-        .form{
-            margin-top: -10px;
-            padding: 70px 0 60px 0;
-            .full-name{
-                width: 90%;
-                margin: 0px 0px 10px 0px;
-            }
-            .email{
-                width: 90%;
-                margin: 0px 0px 10px 0px;
-            }
-            .comments{
-                width: 90%;
-                height: 200px;
-                margin-bottom: 10px;
-            }
-            .contact-button{
-                width: 90%;
-                &:active{
-                    background-color: $primary-color;
-                    color: $secondary-color;
-                    transition: all 0.2s;
-                }
-            }
+@media screen and (min-width:576px) and (max-width:740px){
+    .contact-text{
+        padding: 50px 0 0 0;
+        p{
+            width: 90%;
         }
     }
-}
-
-@media screen and (min-width:576px) and (max-width:740px){
-    .mainContact{
-        .form{
-            padding: 60px 0 60px 0;
-            .full-name{
-                width: 90%;
-                margin: 0px 0px 10px 0px;
-            }
-            .email{
-                width: 90%;
-                margin: 0px 0px 10px 0px;
-            }
-            .comments{
-                width: 90%;
-                height: 200px;
-                margin-bottom: 10px;
-            }
-            .contact-button{
-                width: 90%;
-                &:active{
+    .form{
+         padding: 50px 0 50px 0;
+        .full-name{
+            width: 90%;
+            margin: 0px 0px 10px 0px;
+        }
+        .email{
+            width: 90%;
+            margin: 0px 0px 10px 0px;
+        }
+        .comments{
+            width: 90%;
+            height: 200px;
+            margin-bottom: 10px;
+        }
+        .contact-button{
+            width: 90%;
+            &:active{
                     background-color: $primary-color;
                     color: $secondary-color;
                     transition: all 0.2s;
-                }
             }
         }
     }

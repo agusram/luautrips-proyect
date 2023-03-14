@@ -642,52 +642,51 @@ footer {
       color: #20FC8F;
       transition: all 0.2s; } }
 
-.booking-form .auto, .booking-form .pax, .booking-form .pay {
-  background-color: white;
-  width: 440px;
-  height: 35px;
-  font-family: 'Source Sans Pro', sans-serif;
-  color: #0b2027;
-  font-size: 15px;
-  border: 3px solid #0b2027;
-  border-radius: 5px;
-  margin: 0 5px 10px 0;
-  padding: 0 5px 0 5px; }
-
-.booking-form .contact {
-  background-color: none;
-  width: 250px;
-  height: 35px;
-  font-family: 'Source Sans Pro', sans-serif;
-  color: #0b2027;
-  font-size: 15px;
-  border: 3px solid #0b2027;
-  border-radius: 5px;
-  padding: 0 5px 0 5px; }
-
-.booking-form .booking-line {
-  width: 700px;
-  height: 3px;
-  background-color: #0b2027;
-  margin: auto;
-  margin-top: 10px;
-  margin-bottom: 10px; }
-
-.booking-form .pax {
-  width: 70px;
-  height: 35px;
-  margin: 10px 5px 10px 5px; }
-
-.booking-form .pay {
-  width: 620px;
-  height: 35px;
-  margin-bottom: 10px; }
-
-.booking-form .booking-text {
-  text-align: center;
-  color: #0b2027;
-  font-size: 19px;
-  margin-bottom: -5px; }
+.booking-form {
+  background-color: #CDD1C4;
+  position: relative;
+  margin-top: 2%; }
+  .booking-form .auto, .booking-form .pax, .booking-form .pay {
+    background-color: white;
+    width: 440px;
+    height: 35px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #0b2027;
+    font-size: 15px;
+    border: 3px solid #0b2027;
+    border-radius: 5px;
+    margin: 0 5px 10px 0;
+    padding: 0 5px 0 5px; }
+  .booking-form .contact {
+    background-color: none;
+    width: 250px;
+    height: 35px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #0b2027;
+    font-size: 15px;
+    border: 3px solid #0b2027;
+    border-radius: 5px;
+    padding: 0 5px 0 5px; }
+  .booking-form .booking-line {
+    width: 700px;
+    height: 3px;
+    background-color: #0b2027;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  .booking-form .pax {
+    width: 70px;
+    height: 35px;
+    margin: 10px 5px 10px 5px; }
+  .booking-form .pay {
+    width: 620px;
+    height: 35px;
+    margin-bottom: 10px; }
+  .booking-form .booking-text {
+    text-align: center;
+    color: #0b2027;
+    font-size: 19px;
+    margin-bottom: -5px; }
 
 select option {
   font-family: 'Source Sans Pro', sans-serif; }
@@ -695,7 +694,7 @@ select option {
 @media screen and (max-width: 576px) {
   .booking-form {
     padding: 0;
-    margin-top: -10px; }
+    margin-top: 5px; }
     .booking-form .auto, .booking-form .pax, .booking-form .pay {
       width: 90%;
       margin: 0 0 10px 0; }
@@ -716,7 +715,7 @@ select option {
 @media screen and (min-width: 576px) and (max-width: 740px) {
   .booking-form {
     padding: 0;
-    margin-top: -10px; }
+    margin-top: -3px; }
     .booking-form .auto, .booking-form .pax, .booking-form .pay {
       width: 90%;
       margin: 0 0 10px 0; }
@@ -942,89 +941,109 @@ select option {
     .item .item-item {
       border-radius: 15px; } }
 
-.mainContact {
-  background-color: #CDD1C4; }
-  .mainContact .form {
-    padding: 6% 0 45px 0;
+.contact-text {
+  margin: 0;
+  padding: 80px 0 0 0;
+  background-color: #CDD1C4;
+  display: flex;
+  justify-content: center; }
+  .contact-text p {
+    margin: 0;
+    width: 700px;
+    font-size: 19px;
     text-align: center;
-    background-color: #CDD1C4;
-    font-family: 'Source Sans Pro', sans-serif; }
-    .mainContact .form .full-name, .mainContact .form .email {
-      background-color: none;
-      width: 345px;
-      height: 35px;
-      color: #0b2027;
-      font-size: 15px;
-      border: 3px solid #0b2027;
-      border-radius: 5px;
-      margin: 0px 2.5px 10px 0px;
-      padding: 0 5px 0 5px; }
-    .mainContact .form .email {
-      margin: 0px 0px 10px 2.5px; }
-    .mainContact .form .comments {
-      background-color: none;
-      width: 700px;
-      height: 250px;
-      color: #0b2027;
-      font-size: 15px;
-      border: 3px solid #0b2027;
-      border-radius: 5px;
-      margin-bottom: 10px;
-      padding: 0 5px 0 5px; }
-    .mainContact .form .contact-button {
-      width: 700px;
-      height: 35px;
-      border: 3px solid #0b2027;
-      border-radius: 5px;
-      font-size: 20px;
-      font-family: 'Oswald', sans-serif;
-      color: #0b2027;
-      background-color: #20FC8F;
-      font-weight: bold;
-      cursor: pointer;
+    color: #0b2027; }
+
+.form {
+  padding: 45px 0 45px 0;
+  text-align: center;
+  background-color: #CDD1C4;
+  font-family: 'Source Sans Pro', sans-serif; }
+  .form .full-name, .form .email {
+    background-color: none;
+    width: 345px;
+    height: 35px;
+    color: #0b2027;
+    font-size: 15px;
+    border: 3px solid #0b2027;
+    border-radius: 5px;
+    margin: 0px 2.5px 10px 0px;
+    padding: 0 5px 0 5px; }
+  .form .email {
+    margin: 0px 0px 10px 2.5px; }
+  .form .comments {
+    background-color: none;
+    width: 700px;
+    height: 250px;
+    color: #0b2027;
+    font-size: 15px;
+    border: 3px solid #0b2027;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 0 5px 0 5px; }
+  .form .contact-button {
+    width: 700px;
+    height: 35px;
+    border: 3px solid #0b2027;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    color: #0b2027;
+    background-color: #20FC8F;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s; }
+    .form .contact-button:hover {
+      background-color: #0b2027;
+      color: #20FC8F;
       transition: all 0.2s; }
-      .mainContact .form .contact-button:hover {
-        background-color: #0b2027;
-        color: #20FC8F;
-        transition: all 0.2s; }
 
 @media screen and (max-width: 576px) {
-  .mainContact .form {
+  .contact-text {
+    padding: 40px 0 0 0; }
+    .contact-text p {
+      width: 90%;
+      font-size: 17px; }
+  .form {
     margin-top: -10px;
-    padding: 70px 0 60px 0; }
-    .mainContact .form .full-name, .mainContact .form .email {
+    padding: 50px 0 50px 0; }
+    .form .full-name, .form .email {
       width: 90%;
       margin: 0px 0px 10px 0px; }
-    .mainContact .form .email {
+    .form .email {
       width: 90%;
       margin: 0px 0px 10px 0px; }
-    .mainContact .form .comments {
+    .form .comments {
       width: 90%;
       height: 200px;
       margin-bottom: 10px; }
-    .mainContact .form .contact-button {
+    .form .contact-button {
       width: 90%; }
-      .mainContact .form .contact-button:active {
+      .form .contact-button:active {
         background-color: #0b2027;
         color: #20FC8F;
         transition: all 0.2s; } }
 
 @media screen and (min-width: 576px) and (max-width: 740px) {
-  .mainContact .form {
-    padding: 60px 0 60px 0; }
-    .mainContact .form .full-name, .mainContact .form .email {
+  .contact-text {
+    padding: 50px 0 0 0; }
+    .contact-text p {
+      width: 90%; }
+  .form {
+    padding: 50px 0 50px 0; }
+    .form .full-name, .form .email {
       width: 90%;
       margin: 0px 0px 10px 0px; }
-    .mainContact .form .email {
+    .form .email {
       width: 90%;
       margin: 0px 0px 10px 0px; }
-    .mainContact .form .comments {
+    .form .comments {
       width: 90%;
       height: 200px;
       margin-bottom: 10px; }
-    .mainContact .form .contact-button {
+    .form .contact-button {
       width: 90%; }
-      .mainContact .form .contact-button:active {
+      .form .contact-button:active {
         background-color: #0b2027;
         color: #20FC8F;
         transition: all 0.2s; } }

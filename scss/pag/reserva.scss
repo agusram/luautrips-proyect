@@ -1,4 +1,7 @@
 .booking-form{
+    background-color: $tertiary-color;
+    position: relative;
+    margin-top: 2%;
     .auto{
         background-color: white;
         width: 440px;
@@ -60,7 +63,7 @@ select{
 @media screen and (max-width:576px){
     .booking-form{
         padding: 0;
-        margin-top: -10px;
+        margin-top: 5px;
         .auto{
             width: 90%;
             margin: 0 0 10px 0;
@@ -89,7 +92,7 @@ select{
 @media screen and (min-width:576px) and (max-width:740px){
     .booking-form{
         padding: 0;
-        margin-top: -10px;
+        margin-top: -3px;
         .auto{
             width: 90%;
             margin: 0 0 10px 0;
