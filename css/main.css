@@ -24,6 +24,26 @@ li {
   text-align: center;
   font-weight: bold; }
 
+@media screen and (max-width: 576px) {
+  .start-title {
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+    position: relative; }
+    .start-title img {
+      position: absolute;
+      left: -100%;
+      right: -100%;
+      top: -100%;
+      bottom: -100%;
+      margin: auto;
+      min-height: 100%;
+      min-width: 100%;
+      object-fit: cover; }
+    .start-title h1 {
+      padding-top: 15%;
+      margin-bottom: 0; } }
+
 .navbar .container-fluid {
   background-color: #0b2027;
   padding: 8px; }
@@ -837,7 +857,7 @@ select option {
   .accomSection1__1 {
     margin: 0; }
     .accomSection1__1 .accomSection1__1-location {
-      padding: 5% 0 5px 0; }
+      padding: 7% 0 5px 0; }
       .accomSection1__1 .accomSection1__1-location .location-icon {
         height: 20px; }
       .accomSection1__1 .accomSection1__1-location .location-text {
@@ -922,108 +942,89 @@ select option {
     .item .item-item {
       border-radius: 15px; } }
 
-.start-title-contact img {
-  width: 100%;
-  height: auto;
-  position: absolute; }
-
-.start-title-contact h1 {
-  font-size: calc(1em + 10vw);
-  color: #CDD1C4;
-  opacity: 0.6;
-  padding-top: 16%;
-  text-align: center;
-  font-weight: bold; }
-
-.form {
-  padding: 6% 0 45px 0;
-  text-align: center;
-  background-color: #CDD1C4;
-  font-family: 'Source Sans Pro', sans-serif; }
-  .form .full-name, .form .email {
-    background-color: none;
-    width: 345px;
-    height: 35px;
-    color: #0b2027;
-    font-size: 15px;
-    border: 3px solid #0b2027;
-    border-radius: 5px;
-    margin: 0px 2.5px 10px 0px;
-    padding: 0 5px 0 5px; }
-  .form .email {
-    margin: 0px 0px 10px 2.5px; }
-  .form .comments {
-    background-color: none;
-    width: 700px;
-    height: 250px;
-    color: #0b2027;
-    font-size: 15px;
-    border: 3px solid #0b2027;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    padding: 0 5px 0 5px; }
-  .form .contact-button {
-    width: 700px;
-    height: 35px;
-    border: 3px solid #0b2027;
-    border-radius: 5px;
-    font-size: 20px;
-    font-family: 'Oswald', sans-serif;
-    color: #0b2027;
-    background-color: #20FC8F;
-    font-weight: bold;
-    cursor: pointer;
-    transition: all 0.2s; }
-    .form .contact-button:hover {
-      background-color: #0b2027;
-      color: #20FC8F;
+.mainContact {
+  background-color: #CDD1C4; }
+  .mainContact .form {
+    padding: 6% 0 45px 0;
+    text-align: center;
+    background-color: #CDD1C4;
+    font-family: 'Source Sans Pro', sans-serif; }
+    .mainContact .form .full-name, .mainContact .form .email {
+      background-color: none;
+      width: 345px;
+      height: 35px;
+      color: #0b2027;
+      font-size: 15px;
+      border: 3px solid #0b2027;
+      border-radius: 5px;
+      margin: 0px 2.5px 10px 0px;
+      padding: 0 5px 0 5px; }
+    .mainContact .form .email {
+      margin: 0px 0px 10px 2.5px; }
+    .mainContact .form .comments {
+      background-color: none;
+      width: 700px;
+      height: 250px;
+      color: #0b2027;
+      font-size: 15px;
+      border: 3px solid #0b2027;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      padding: 0 5px 0 5px; }
+    .mainContact .form .contact-button {
+      width: 700px;
+      height: 35px;
+      border: 3px solid #0b2027;
+      border-radius: 5px;
+      font-size: 20px;
+      font-family: 'Oswald', sans-serif;
+      color: #0b2027;
+      background-color: #20FC8F;
+      font-weight: bold;
+      cursor: pointer;
       transition: all 0.2s; }
+      .mainContact .form .contact-button:hover {
+        background-color: #0b2027;
+        color: #20FC8F;
+        transition: all 0.2s; }
 
 @media screen and (max-width: 576px) {
-  .start-title-contact img {
-    min-width: 100%;
-    min-height: 222px;
-    object-fit: cover; }
-  .start-title-contact h1 {
-    padding: 22% 0 2% 0;
-    margin-bottom: 0; }
-  .form {
-    position: relative;
-    padding: 55px 0 55px 0; }
-    .form .full-name, .form .email {
+  .mainContact .form {
+    margin-top: -10px;
+    padding: 70px 0 60px 0; }
+    .mainContact .form .full-name, .mainContact .form .email {
       width: 90%;
       margin: 0px 0px 10px 0px; }
-    .form .email {
+    .mainContact .form .email {
       width: 90%;
       margin: 0px 0px 10px 0px; }
-    .form .comments {
+    .mainContact .form .comments {
       width: 90%;
       height: 200px;
       margin-bottom: 10px; }
-    .form .contact-button {
+    .mainContact .form .contact-button {
       width: 90%; }
-      .form .contact-button:active {
+      .mainContact .form .contact-button:active {
         background-color: #0b2027;
         color: #20FC8F;
         transition: all 0.2s; } }
 
 @media screen and (min-width: 576px) and (max-width: 740px) {
-  .form {
-    margin-top: -10px;
+  .mainContact .form {
     padding: 60px 0 60px 0; }
-    .form .full-name, .form .email {
+    .mainContact .form .full-name, .mainContact .form .email {
       width: 90%;
       margin: 0px 0px 10px 0px; }
-    .form .email {
+    .mainContact .form .email {
       width: 90%;
       margin: 0px 0px 10px 0px; }
-    .form .comments {
+    .mainContact .form .comments {
       width: 90%;
       height: 200px;
       margin-bottom: 10px; }
-    .form .contact-button {
+    .mainContact .form .contact-button {
       width: 90%; }
-      .form .contact-button:active {
+      .mainContact .form .contact-button:active {
         background-color: #0b2027;
         color: #20FC8F;
         transition: all 0.2s; } }
