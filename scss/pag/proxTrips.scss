@@ -145,6 +145,9 @@
 
 
 @media screen and (max-width:576px){
+    #mainNextTrips{
+        padding: 55px 0 55px 0;
+    }
     #content-itemCarousel{
         display: flex;
         height: 600px;
@@ -219,6 +222,144 @@
         &:hover{
             background-color: $primary-color;
             color: $secondary-color;
+            transition: all 0.2s;
+        }
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:980px){
+    #mainNextTrips{
+        padding: 70px 0 70px 0;
+    }
+    .cards-row{
+        display: none;
+    }
+    #content-itemCarousel{
+        display: flex;
+        height: 600px;
+        width: 355px;
+        overflow: hidden;
+        .itemCarousel{
+            position: relative;
+            .arrowCarousel{
+                height: 600px;
+                width: 355px;
+                position: absolute;
+                top: 0;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 20px;
+            }
+        }
+    }
+    .arrow{
+        width: 12px;
+        opacity: 0.5;
+    }
+    // Tarjetas
+    .mainNextTrips__card-1{
+        background-image: url(../img/nextTrips/img-nextTrips01.jpg);
+        background-repeat: no-repeat;
+        background-size: auto 650px;
+        border-radius: 20px 60px;
+        height: 600px;
+        width: 355px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        margin: 0;
+    }
+    .mainNextTrips__card-2{
+        background-image: url(../img/nextTrips/img-nextTrips02.jpg);
+        background-repeat: no-repeat;
+        // background-size: auto 700px;
+        background-size: auto 650px;
+        border-radius: 20px 60px;
+        // height: 700px;
+        // width: 385px;
+        height: 600px;
+        width: 355px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+    }    
+    .mainNextTrips__card-3{
+        background-image: url(../img/nextTrips/img-nextTrips03.jpg);
+        background-repeat: no-repeat;
+        background-size: auto 650px;
+        border-radius: 20px 60px;
+        height: 600px;
+        width: 355px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        font-weight: bold;
+        .mainNextTrips__card-3-price{
+            color: $tertiary-color;
+            font-size: 25px;
+            padding: 70px 0 15px 0;
+        }
+    }    
+    // Tarjetas - En común
+    .mainNextTrips__card-location{
+        color: $tertiary-color;
+        font-size: 25px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-weight: bold;
+        .card-location-icon{
+            padding-right: 5px;
+            height: 30px;
+        }
+        .card-location-text{
+            padding-left: 5px;
+            font-weight: bold;
+            margin-bottom: 0px;
+        }
+    }
+    .mainNextTrips__card-date{
+        color: $tertiary-color;
+        font-size: 25px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-top: 5px;
+        .card-date-icon{
+            padding-right: 5px;
+            height: 30px;
+        }
+        .card-date-text{
+            padding-left: 5px;
+            font-weight: bold;
+            margin-bottom: 0px;
+        }
+    }
+    .mainNextTrips__card-price{
+        color: $tertiary-color;
+        font-size: 25px;
+        font-weight: bold;
+        padding: 50px 0 15px 0;
+    }
+    .mainNextTrips__card-button{
+        background-color: transparent;
+        width: 150px;
+        height: 60px;
+        color: $secondary-color;
+        font-size: 30px;
+        font-weight: bold;
+        border: 2px solid $secondary-color;
+        border-radius: 10px;
+        margin-bottom: 40px;
+        cursor: pointer;
+        transition: all 0.2s;
+        &:hover{
+            background-color: $primary-color;
+            border: none;
             transition: all 0.2s;
         }
     }

@@ -58,6 +58,7 @@
                 font-size: 50px;
             }
             .welcSection__line{
+                width: 50%;
                 height: 4px;
                 background-color: $tertiary-color;
             }
@@ -265,7 +266,7 @@
                     font-size: 23px;
                 }
                 .welcSection__line{
-                    width: 250px;
+                    width: 280px;
                     height: 3px;
                     margin: 0 0 0 0;
                 }
@@ -385,7 +386,6 @@
                     padding-top: 40px;
                 }
                 .welcSection__line{
-                    width: 50%;
                     margin: 0;
                 }
                 .welcSection__description{
